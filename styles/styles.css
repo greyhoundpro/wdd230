@@ -1,8 +1,28 @@
+
+* {
+    border: 1px solid blue;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 30px;
+    margin: 100px auto;
+    text-align: center;
+    max-width: 500px;
 }
 
 #assignments {
     margin-top: 100px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+#profile-picture {
+    max-width: 100px;
+    height: auto;
+}
+
+.profile-name {
+    margin: 1rem;
 }
