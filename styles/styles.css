@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
 
-* {
-    border: 1px solid blue;
-}
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 100px auto;
     text-align: center;
     max-width: 500px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 #assignments {
@@ -16,11 +14,28 @@ body {
 .profile-container {
     display: flex;
     align-items: center;
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 10px gray;
+}
+.profile-container h2 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
 }
 
 #profile-picture {
     max-width: 100px;
     height: auto;
+    padding: 20px;
+    border-radius: 5px;
+
 }
 
 .profile-name {
