@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em) {
+    .profile-container {
+        display: flex;
+    }
+    .profile-picture {
+        margin: 1rem;
+        max-width: 120px;
+    }
+    .profile-container h1 {
+        display: flex;
+    }
+    .profile-name {
+        margin: 1rem;
+        text-align: left;
+    }
+
+}

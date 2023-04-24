@@ -13,12 +13,14 @@ body {
 }
 
 .profile-container {
-    display: flex;
+    display: block;
     align-items: center;
     background-color: black;
     color: #fff;
     box-shadow: 5px 5px 10px gray;
     border-radius: 5px;
+    padding: 10px;
+
 }
 .profile-container h1 {
     background-color: #ff8177;
@@ -29,7 +31,6 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    display: flex;
     align-items: center;
 }
 
@@ -37,14 +38,13 @@ body {
 .profile-picture {
     max-width: 100px;
     height: auto;
-    padding: 20px;
     border-radius: 5px;
-
 }
 
 .profile-name {
-    margin: 1rem;
-    text-align: left;
+    margin: 0 auto;
+    
+    text-align: center;
 }
 ul li {
     max-width: 250px;
