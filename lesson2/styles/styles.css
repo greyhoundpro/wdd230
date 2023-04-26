@@ -10,6 +10,7 @@ body {
 
 a {
     text-decoration: none;
+    margin-left: 25px;
 }
 header, footer {
     text-align: center;
@@ -30,7 +31,6 @@ header h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
 }
 
 section {
@@ -40,10 +40,17 @@ section {
     max-width: fit-content;
     justify-self: center;
 }
-section p, img {
+img {
     margin-left: 10px;
     margin-right: 10px;
-    
+    max-width: 300px;
+}
+
+.description3, .description1, .description2 {
+    line-height: 1.4;
+    margin-top: 10px;
+    max-width: 350px;
+    padding: 20px;
 }
 section h4 {
     margin: 0;
@@ -52,16 +59,27 @@ section h4 {
     padding: 10px;
     border-radius: 10px 10px 0 0;
 }
+section h4 + p {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-left: 25px;
+}
+section h4 + p::after {
+    content: "";
+}
 section img {
     display: block;
     max-width: 300px;
     height: auto;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 .modified {
     color: #EDAE49;
 }
+
+
+/* Medium View */
 
 @media screen and (max-width: 900px) {
     .main-container {
@@ -78,8 +96,13 @@ section img {
         width: 100%;
         max-width: max-content;
     }
+    .description3 {
+        max-width: 450px;
+    }
 }
 
+
+/* Small View */
 @media screen and (max-width: 600px) {
     .main-container {
         display: grid;
@@ -104,5 +127,8 @@ section img {
         max-width: 300px;
         height: auto;
         margin: 0 15px;
+    }
+    .description3 {
+        max-width: 300px;
     }
 }
