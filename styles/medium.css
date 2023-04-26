@@ -1,6 +1,8 @@
 @media only screen and (min-width: 32.5em) {
     .profile-container {
         display: flex;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 5px;
     }
     .profile-picture {
         margin: 1rem;
