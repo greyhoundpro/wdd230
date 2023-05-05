@@ -4,9 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the site plan for the Alaminos City Chamber 
+    of Commerce that includes the site name, purpose, audience, design, etc.">
     <title>Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Alaminos Chamber of Commerce Site Plan</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="target-audience.html">TARGET AUDIENCE</a></li>
+                <li><a href="design.html">DESIGN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="design">
+        <h2>Style Guide</h2>
+        <h3>Logo in Colored Background</h3>
+        <div class="design-logo">
+            <img src="images/ALAMINOS-COC-logo.png" alt="Alaminos COC Logo">
+        </div>
+        <h3>Color Palette</h3>
+        <table class="color-table">
+            <tr>
+                <th>Primary</th>
+                <th>Secondary</th>
+            </tr>
+            <tr>
+                <td class="primary">[#6fc4c9]</td>
+                <td class="secondary">[a0cddc]</td>
+            </tr>
+        </table>
+
+
+        <h3>Typography</h3>
+            <table class="typography-table">
+                <tr>
+                    <td>Site header</td>
+                    <td>Barlow</td>
+                    <td>h1</td>
+                    <td class="color1">#6fc4c9</td>
+                    <td class="color1"><h1>Sample</h1></td>
+                </tr>
+                <tr>
+                    <td>Primary Navigation</td>
+                    <td>Barlow</td>
+                    <td>h3</td>
+                    <td class="color1">#6fc4c9</td>
+                    <td class="color1"><h3>Sample</h3></td>
+                </tr>
+                <tr>
+                    <td>Navigation Hover</td>
+                    <td>Barlow</td>
+                    <td>h3</td>
+                    <td class="color2">#4F646F</td>
+                    <td class="color2"><h3>Sample</h3></td>
+                </tr>
+                <tr>
+                    <td>Heading 1 (h1)</td>
+                    <td>Barlow</td>
+                    <td>h1</td>
+                    <td class="color-h1">#6fc4c9</td>
+                    <td class="color-h1"><h1>Sample</h1></td>
+                </tr>
+                <tr>
+                    <td>Heading 1 (h2)</td>
+                    <td>Barlow</td>
+                    <td>h1</td>
+                    <td class="color-h1">#6fc4c9</td>
+                    <td class="color-h1"><h2>Sample</h2></td>
+                </tr>
+                <tr>
+                    <td>Heading 3 (h3)</td>
+                    <td>Barlow</td>
+                    <td>h1</td>
+                    <td class="color-h1">#6fc4c9</td>
+                    <td class="color-h1"><h3>Sample</h3></td>
+                </tr>
+                <tr>
+                    <td>Paragraph Text</td>
+                    <td>Barlow</td>
+                    <td>p</td>
+                    <td class="color-h1">#6fc4c9</td>
+                    <td class="color-h1"><p>Sample</p></td>
+                </tr>
+            </table>
+        
+        <h3>Normal paragraph example</h3>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+        <h3>Colored paragraph example</h3>
+        <p class="colored">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span>  | Jayvee Galosmo  |  Philippines</p>
+        <p class="modified">Last updated: <span id="modified-date"></span> <span id="modified-time"></span></p>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
