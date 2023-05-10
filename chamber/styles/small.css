@@ -157,3 +157,21 @@ body {
 }   
 
 
+/* Footer */
+
+footer {
+    background: var(--primary-color); 
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
+    top: 100%;
+    color: #131313;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+
