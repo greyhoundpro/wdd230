@@ -139,11 +139,14 @@ body {
     width: 35px;
 }
 .social-links img {
-    width: 30px;
+    width: 100%;
     
 }
 .social-menu {
     padding-right: 20px;
+}
+.social-items {
+    margin-right: 10px;
 }
 .navdate-container {
     display: flex;

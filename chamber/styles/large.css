@@ -1,3 +1,33 @@
 @media screen and (min-width: 1008px) {
+    .navbar-menu {
+        display: flex;
+        top: 100%;
+        z-index: 10;
+        position: static;
+        list-style-type: none;
+        width: 100%;
+        margin: 0 auto 25px auto;
+        align-items: center;
+
+    }
+    .navbar-links {
+        display: flex;
+        width: 125px;
+        align-items: last baseline;
+        justify-content: center;
+        height: 100%;
+    }
+    .navbar-toggle .bar {
+        display: none;
+    }
+    .social-menu {
+        padding-right: 0;
+        display: flex;
+        top: 25%;
+        right: 5%;
+    }
     
+    .social-items {
+        margin-right: 10px;
+    }
 }
