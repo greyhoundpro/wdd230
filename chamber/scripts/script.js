@@ -1,6 +1,6 @@
 const d = new Date();
 const year = d.getFullYear();
-document.querySelector("#year").innerHTML = year;
+// document.querySelector("#year").innerHTML = year;
 
 const options = {month: 'long', day: 'numeric', year: 'numeric'};
 const options1 = {weekday: 'long', day: 'numeric', month: 'long',  year: 'numeric'};
