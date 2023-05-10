@@ -53,7 +53,7 @@
 
 #mobile-menu {
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 5%;
     transform: translate(5%, 20%);
 }
@@ -63,8 +63,8 @@
     align-items: center;
     list-style-type: none;
     position: absolute;
-    top: 25%;
-    right: 15%;
+    top:30%;
+    right: 12%;
     z-index: 100;
     
 }
@@ -142,5 +142,15 @@
 .social-menu {
     padding-right: 20px;
 }
+.navdate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    margin: 15px;
+    padding: 8px;
+    font-family: var(--paragraph-font);
+    font-size: .96rem;
+}   
 
 
