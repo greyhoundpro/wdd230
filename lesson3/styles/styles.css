@@ -71,6 +71,7 @@ main {
 
 .logo img, .design-logo img {
     max-width: 300px;
+    width: 100%;
     height: auto;
 }
 .design-logo {
@@ -111,6 +112,7 @@ table {
     width: 50%;
     margin-bottom: 50px;
     margin-left: 50px;
+    overflow-x: auto;
 }
 
 
