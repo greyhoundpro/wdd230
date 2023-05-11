@@ -30,4 +30,10 @@
     .social-items {
         margin-right: 10px;
     }
+    .navbar-menu.active {
+        display: flex;
+        height: 70%;
+        background-color: transparent;
+        font-size: 1.2rem;
+    }
 }

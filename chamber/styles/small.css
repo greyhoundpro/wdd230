@@ -27,7 +27,7 @@ body {
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 150px;
+    height: 130px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -80,13 +80,11 @@ body {
     position: absolute;
     top: -1000px;
     opacity: 1;
-    transition: all 0.5s ease;
     z-index: -1;
 }
 
 .navbar-menu.active {
-    background: var(--primary-color); 
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  
+    background: #86c9f5; 
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -153,7 +151,7 @@ body {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #6190e8, #a7bfe8);
-    margin: 15px;
+    margin: 15px auto;
     padding: 8px;
     font-family: var(--paragraph-font);
     font-size: .96rem;
