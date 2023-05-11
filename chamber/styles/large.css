@@ -36,4 +36,53 @@
         background-color: transparent;
         font-size: 1.2rem;
     }
+
+/* Main */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    #event-container {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #weather-container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #hero-container {
+        grid-column: 2/3;
+        grid-row: 1/3;
+        height: 98%;
+    }
+    #spotlight3 {
+        display: grid;
+    }
+    #join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #spotlight {
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        height: 99%;
+        text-align: center;
+    }
+    .spotlight-container {
+        width: 200px;
+    }
+
+    #news-container {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .modified {
+        display: flex;
+    }
+
+
+
+
 }
