@@ -64,14 +64,15 @@
         grid-row: 3/4;
     }
     #spotlight {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         grid-column: 3/4;
         grid-row: 1/4;
         height: 99%;
         text-align: center;
     }
     .spotlight-container {
-        width: 200px;
+        width: 99%;
     }
 
     #news-container {

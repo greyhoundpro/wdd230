@@ -15,13 +15,12 @@
         grid-column: 1/4;
         grid-row: 3/4;
         display: flex;
+        gap: 3px;
     }
     #spotlight3 {
         display: none;
     }
-    #spotlight1 {
-        margin-right: 3px;
-    }
+    
     .spotlight-container {
         height: 100%;
     }
