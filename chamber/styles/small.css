@@ -23,6 +23,13 @@ body {
     padding-left: 15px;
     cursor: pointer;
 }
+.banner  {
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 2px solid #131313;
+    display: none;
+}
 
 .navbar {
     background: #74ebd5;  /* fallback for old browsers */

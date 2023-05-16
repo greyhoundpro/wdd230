@@ -36,3 +36,8 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
+// Showing Banner on Mondays and Tuesdays
+const banner = document.querySelector('.banner');
+if (d.getDay() == 1 || d.getDay() == 2) {
+    banner.style.display = "block";
+}
