@@ -18,6 +18,11 @@ body {
     background-color: #131313;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .logo {
     width: 225px;
     padding-left: 15px;
