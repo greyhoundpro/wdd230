@@ -177,10 +177,9 @@ header {
     display: flex;
     background-color: var(--secondary-color);
     margin: 4px;
-    height: 32.5em;
+    height: auto;
     justify-content: center;
     align-items: center;
-    padding: 10px;
     border-radius: 4px;
 }
 .spotlight-container {
@@ -200,6 +199,12 @@ header {
 #join {
     display: none;
 }
+#hero-container img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+}
+
 
 
 /* Footer */
