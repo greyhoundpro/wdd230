@@ -6,24 +6,28 @@ header, footer {
     text-align: center;
     color: white;
     background-color: #003D5B;
-    padding: 7px;
 	width: 100%;
 }
 header {
 	padding: 40px 0;
 }
+footer {
+	padding: 10px 0;
+}
 
 body {
-	display: flex;
-	flex-direction: column;
+	
 	align-items: center;
 	justify-content: center;
 	font-family: Acme, Arial, sans-serif;
     color: #dddddd;
 }
+main {
+	width: 420px;
+}
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 2rem;
     text-align: center;
 }
 
@@ -62,6 +66,9 @@ input
 .inputBtn:hover {
     transform: scale(1.1);
 }
+.modified {
+    color: #EDAE49;
+}
 
 .delete {
 	width: fit-content;
@@ -98,12 +105,12 @@ li {
     margin-top: 5px;
 }
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (max-width: 32.5em) {
 	h1 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	main {
-		width: 420px;
+		width: 320px;
 	}
 }
