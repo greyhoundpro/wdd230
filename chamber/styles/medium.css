@@ -29,6 +29,11 @@
     .hero-container img {
         opacity: .88;
     }
+    #event-container img  {
+        height: 100%;
+        width: 100%;
+        
+    }
     #news-container {
         grid-column: 1/4;
         grid-row: 2/3;
