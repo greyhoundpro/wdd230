@@ -6,6 +6,28 @@
     #hero-container {
         grid-column: 1/4;
         grid-row: 1/2;
+
+    }
+    .hero-btn {
+        grid-column: 3/4;
+        grid-row: 3/4;
+        padding: 15px;
+    }
+    .hero-btn a {
+        font-size: 1.5rem;
+    }
+    
+    .hero-heading {
+        grid-column: 3/5;
+        grid-row: 1/2;
+        font-size: 3.3rem;
+    }
+    .hero-heading2 {
+        font-size: 2.3rem;
+        margin-top: 10px;
+    }
+    .hero-container img {
+        opacity: .88;
     }
     #news-container {
         grid-column: 1/4;
@@ -24,7 +46,7 @@
     .spotlight-container {
         height: 100%;
     }
-    #join {
+    #join-container {
         display: grid;
         grid-column: 1/4;
         grid-row: 4/5;
