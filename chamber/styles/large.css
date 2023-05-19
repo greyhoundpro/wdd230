@@ -45,7 +45,9 @@
         grid-template-columns: 2fr 4fr 2fr;
         margin: 25px auto;
         width: 98%;
-
+    }
+    .main-containers {
+        margin: 10px;
     }
     #event-container {
         grid-column: 1/2;
