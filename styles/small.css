@@ -31,6 +31,7 @@ body {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     align-items: center;
+    
 }
 
 
@@ -42,11 +43,10 @@ body {
 
 .profile-name {
     margin: 0 auto;
-    
     text-align: center;
 }
 ul li {
-    max-width: 400px;
+    max-width: 450px;
     margin-left: 20px;
     text-align: left;
     line-height: 2;

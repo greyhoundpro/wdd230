@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header, footer {
+    text-align: center;
+    color: white;
+    background-color: #003D5B;
+	width: 100%;
+}
+header {
+	padding: 40px 0;
+}
+
+body {
+    align-items: center;
+	justify-content: center;
+	font-family: Acme, Arial, sans-serif;
+}
+
+/* Main */
+
+main {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.video {
+    margin: 50px auto;
+    text-align: center;
+    
+}
+iframe {
+    width: 100%;
+    height: 350px;
+}
+
+
+footer {
+	padding: 10px 0;
+}
+.modified {
+    color: #EDAE49;
+}
+
+
+@media screen and (max-width: 645px) {
+    main {
+        margin: 15px;
+    }
+    .student-name h1 {
+        font-size: 1.6em;
+    }
+    .student-name h3 {
+        font-size: 1em;
+    }
+}
+
