@@ -7,6 +7,7 @@
         <meta name="description" content="The Alaminos Chamber of Commerce is an organization of business striving to promote the continous improvement 
         of the quality of life in the community through the pursuit of new business and promotion of local commerce.">
         <title>Alaminos Chamber of Commerce</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/medium.css">
         <link rel="stylesheet" href="styles/large.css">
@@ -56,7 +57,13 @@
         </header>
         <main>
             <div id="hero-container" class="main-containers">
-                <img class="hero-img" src="images/hundred-islands-christ-the-redeemer.jpg" alt="Christ the Redeemer Statue in Hundred Islands">
+                <picture>
+                    
+                    <source media="(max-width: 767px)" srcset="images/hundredis-767w.jpg">
+                    <source media="(min-width: 768px)" srcset="images/hundredis-900.jpg">
+                    <img src="images/hundredis-900.jpg" alt="Christ the Redeemer Statue in Hundred Islands">
+                </picture>
+                <!-- <img class="hero-img" src="images/hundredis-900.jpg" alt="Christ the Redeemer Statue in Hundred Islands"> -->
                 <h1 class="hero-heading">We Grow Our Business <span class="down">Together</span></h1>
                 <h2 class="hero-heading2">Explore Possibilities</h2>
                 <button class="hero-btn">
@@ -81,9 +88,16 @@
                 </div>
             </div>
             <div id="spotlight" class="main-containers">
-                <section id="spotlight1" class="spotlight-container">Spotlight 1</section>
-                <section id="spotlight2" class="spotlight-container">Spotlight 2</section>
-                <section id="spotlight3" class="spotlight-container">Spotlight 3</section>
+                <section id="spotlight1" class="spotlight-container">
+                    <h2>Talk with an Expert</h2>
+                    <!-- <img src="images/talk-with-experts.jpg" alt="Woman talking with an expert"> -->
+                </section>
+                <section id="spotlight2" class="spotlight-container">
+                    <h2>View our community guide</h2>
+                </section>
+                <section id="spotlight3" class="spotlight-container">
+                    <h2>Moving your business here?</h2>
+                </section>
             </div>
             <div id="join-container" class="main-containers">
                 <p>Join</p>
