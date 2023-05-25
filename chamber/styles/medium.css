@@ -14,16 +14,16 @@
         padding: 15px;
     }
     .hero-btn a {
-        font-size: 1.5rem;
+        font-size: 2.5vw;
     }
     
     .hero-heading {
         grid-column: 3/5;
         grid-row: 1/2;
-        font-size: 3.3rem;
+        font-size: 5vw;
     }
     .hero-heading2 {
-        font-size: 2.3rem;
+        font-size: 3vw;
         margin-top: 10px;
     }
     .hero-container img {
