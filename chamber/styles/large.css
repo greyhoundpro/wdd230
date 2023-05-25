@@ -81,7 +81,11 @@
         grid-row: 1/3;
         height: auto;
     }
-    #hero-container img {
+
+    .hero-heading {
+        font-size: 
+    }
+    .hero-img {
         width: 100%;
         height: 100%;
     }
