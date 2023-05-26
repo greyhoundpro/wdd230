@@ -54,11 +54,10 @@
         grid-row: 1/2;
     }
     
-    .event-btn {
-        width: 50%;
-        margin-bottom: 50px;
+    .event-button {
+        margin-bottom: 4vw;
     }
-    .hero-btn a {
+    .hero-btn {
         font-size: 1.5vw;
     }
     
@@ -90,24 +89,38 @@
     }
     
     
-    #spotlight3 {
-        display: grid;
-    }
-    #join {
+    #join-container {
         grid-column: 1/2;
         grid-row: 3/4;
     }
     #spotlight {
         display: flex;
         flex-direction: column;
+        
         grid-column: 3/4;
         grid-row: 1/4;
-        height: 99%;
-        text-align: center;
+        min-height: 89%;
     }
     .spotlight-container {
-        width: 99%;
+        width: 100%;
+        height: 100%;
     }
+    #spotlight3 {
+        display: grid;
+        position: relative;
+    }
+    .spotlight-overlay h2 {
+        font-size: 1.7vw;
+    }
+    .spotlink {
+        transition: all 0.5s ease;
+    }
+    .spotlink:hover {
+        transform: scale(1.03);
+        transition: all 0.2s ease;
+        opacity: 0.89;
+    }
+    
 
     #news-container {
         grid-column: 2/3;

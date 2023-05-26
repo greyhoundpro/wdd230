@@ -72,15 +72,17 @@
                 <div class="overlay">
                     <h1 class="hero-heading">We Grow Our Business Together</h1>
                     <h2 class="hero-heading2">Explore Possibilities</h2>
-                    <div class="hero-button">
-                        <button class="hero-btn"><a href="#">Join Us</a></button>
+                    <div class="button hero-button">
+                        <a class="hero-btn" href="#">Join Us</a>
                     </div>
                 </div>
             </div>
             <div id="event-container" class="main-containers">
-                <img src="images/EXPO.png" alt="Business Expo Event invitation">
+                <img src="images/rsz_13expo.jpg" alt="Business Expo Event invitation">
                 <div class="event-btn-container">
-                    <button class="event-btn"><a href="#">Register</a></button>
+                    <div class="button event-button">
+                        <a class="event-btn" href="#">Register</a>
+                    </div>
                 </div>
             </div>
             <div id="weather-container" class="main-containers">
@@ -114,19 +116,47 @@
                 </div>
             </div>
             <div id="spotlight" class="main-containers">
-                <section id="spotlight1" class="spotlight-container">
-                    <h2>Talk with an Expert</h2>
+                <div id="spotlight1" class="spotlight-container">
+                    <a class="spotlink" href="#">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/talk-with-experts-stock.jpg">
+                            <img class="spotlight-img1" src="images/talk-with-experts-stock.jpg" alt="Two People Talking over a Computer">
+                        </picture>
+                        <div class="spotlight-overlay">
+                            <h2>Talk with an Expert in <br>Finance</h2>
+                        </div>
+                    </a>
                     <!-- <img src="images/talk-with-experts.jpg" alt="Woman talking with an expert"> -->
-                </section>
-                <section id="spotlight2" class="spotlight-container">
-                    <h2>View our community guide</h2>
-                </section>
-                <section id="spotlight3" class="spotlight-container">
-                    <h2>Moving your business here?</h2>
-                </section>
+                </div>
+                <div id="spotlight2" class="spotlight-container">
+                    <a class="spotlink" href="#">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/alaminos-community-guide-main.jpg">
+                            <img class="spotlight-img1" src="images/alaminos-community-guide-main.jpg" alt="Alaminos city brochure">
+                        </picture>
+                        <div class="spotlight-overlay">
+                            <h2>View our community guide</h2>
+                        </div>
+                    </a>
+                </div>
+                <div id="spotlight3" class="spotlight-container">
+                    <a class="spotlink" href="#">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="images/business-moving-company.jpg">
+                            <img class="spotlight-img1" src="images/business-moving-company.jpg" alt="Image of boxes in a room">
+                        </picture>
+                        <div class="spotlight-overlay">
+                            <h2>Moving your business here?</h2>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div id="join-container" class="main-containers">
-                <p>Join</p>
+                <h2>Sign Up Now!</h2>
+                <p class="joinP">Explore the benefits the Chamber has to offer your business</p>
+                <div class="button">
+                    <a id="join-btn" href="#">Join The Chamber</a>
+                </div>
             </div>
         </main>
         <footer>

@@ -197,10 +197,9 @@ button {
 
 
 
-button {
-    text-decoration: none;
+.button {
     padding:  10px;
-    width: 100%;
+    width: 40%;
     background: #74ebd5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ACB6E5, #74ebd5);
@@ -211,23 +210,23 @@ button {
     transition: all 0.3s ease;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.hero-btn {
-    padding:  10px;
-    width: 100%;
+.hero-button {
     margin: 2rem 20px;
-    background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    padding: 10px;
+    
 }
-.hero-btn a, .event-btn a{
-    color: #131313;
+
+.hero-btn, .event-btn {
     text-decoration: none;
+    color: #131313;
     font-weight: 700;
     transition: all 0.5s ease;
     font-size: 1.2rem;
+    text-align: center;
 }
-.hero-btn:hover, .event-btn:hover {
+.button:hover {
     background:#aec5f1;
     transition: all 0.5s ease;
     transform: scale(1.1);
@@ -313,22 +312,70 @@ button {
     color: var(--secondary-color);
 }
 
-.spotlight-container {
-    border: 1px solid grey;
-    width: 100%;
-    height: 13em;
-    padding: 10px;
-}
+/* Spotlight */
 #spotlight {
     display: block;
     text-align: center;
-    height: 30em;
+    height: auto;
 }
+.spotlight-container {
+    width: 100%;
+    height: auto;
+}
+#spotlight1, #spotlight2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.spotlight-img1 {
+    width: 100%;
+    height: auto;
+}
+.spotlight-overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom,transparent 0,rgba(0,0,0,1) 75%,rgba(0,0,0,1) 90%);
+    width: 100%;
+    padding: 18px 10px 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    text-align: left;
+    
+}
+.spotlight-overlay h2 {
+    margin-bottom: 5px;
+    font-size: 5vw;
+    line-height: 128%;
+    
+}
+#spotlight picture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.spotlink {
+    transition: all 0.5s ease;
+}
+.spotlink:hover {
+    transition: all 0.2s ease;
+    opacity: 0.89;
+}
+
+
 #spotlight3 {
     display: none;
 }
 #join-container {
     display: none;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.joinP {
+    max-width: 80%;
 }
 
 #event-container {
@@ -355,10 +402,11 @@ button {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    
 }
-.event-btn {
-    width: 50%;
+.event-button {
     margin-bottom: 17vw;
+    
 }
 
 #weather-container {
