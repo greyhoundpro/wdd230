@@ -241,11 +241,11 @@ button {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
 }
 .hero-heading {
-    margin-top: 15px;
+    margin-top: 50px;
     color: #03e2ff;
     margin-right: 20px;
     margin-left: 20px;

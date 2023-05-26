@@ -23,6 +23,7 @@
         grid-column: 3/5;
         grid-row: 1/2;
         font-size: 5vw;
+        margin-top: 150px;
     }
     .hero-heading2 {
         font-size: 3vw;
