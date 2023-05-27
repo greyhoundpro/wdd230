@@ -174,7 +174,7 @@ button {
 }
 .main-containers {
     height: auto;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 /* #hero-container {

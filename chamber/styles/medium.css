@@ -50,7 +50,7 @@
         grid-column: 1/4;
         grid-row: 3/4;
         display: flex;
-        gap: 3px;
+        gap: 10px;
     }
     .spotlight-overlay h2 {
         font-size: 3vw;

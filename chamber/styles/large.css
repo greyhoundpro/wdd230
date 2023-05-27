@@ -103,10 +103,10 @@
     }
     .spotlight-container {
         width: 100%;
-        height: 100%;
     }
+    
     #spotlight3 {
-        display: grid;
+        display: flex;
         position: relative;
     }
     .spotlight-overlay h2 {
