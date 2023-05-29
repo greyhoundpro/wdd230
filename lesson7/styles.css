@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+    background-color: #003D5B;
+	width: 100%;
+}
+header {
+	padding: 40px 0;
+}
+footer {
+	padding: 10px 0;
+}
+.modified {
+    color: #EDAE49;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    color: grey
+}
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+.gallery img {
+    margin-top: 5px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+
