@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    main {
+    #homepage-main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 52px;

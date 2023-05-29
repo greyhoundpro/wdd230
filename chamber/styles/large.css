@@ -40,7 +40,7 @@
 
 /* Main */
 
-    main {
+    #homepage-main {
         display: grid;
         grid-template-columns: 2fr 4fr 2fr;
         margin: 25px auto;
