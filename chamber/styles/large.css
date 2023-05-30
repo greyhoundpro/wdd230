@@ -27,6 +27,12 @@
         top: 25%;
         right: 5%;
     }
+    .social-menu.is-active {
+        padding-right: 0;
+        display: flex;
+        top: 40%;
+        right: 5%;
+    }
     
     .social-items {
         margin-right: 10px;
@@ -120,14 +126,69 @@
         transition: all 0.2s ease;
         opacity: 0.89;
     }
-    
-
     #news-container {
         grid-column: 2/3;
         grid-row: 3/4;
     }
     .modified {
         display: flex;
+    }
+
+    /* DISCOVER */
+
+    #discover-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .discover-hero-container {
+        grid-template-columns: repeat(12, 1fr);
+        justify-content: center;
+        padding: 0 6rem;
+    }
+    .discover-hero-title {
+        grid-column: 3/11;
+
+    }
+    .discover-media {
+        grid-column: 1/-1;
+    }
+    .Dcontainer {
+        padding: 5.6rem 0;
+    }
+    .Dcontent1 {
+        grid-template-columns: repeat(12, 1fr);
+        justify-content: center;
+        padding: 0 6rem;
+        position: relative;
+        column-gap: 3.2rem;
+        
+    }
+    .discover-hero-title h1 {
+        font-size: 3rem;
+    }
+    .discover-content {
+        grid-column: 6/span 7;
+        grid-row: 2/3;
+    }
+    .Dcontent-head {
+        align-self: baseline;
+        justify-self: baseline;
+        position: absolute;
+    }
+    .Dcontent-text {
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+    .Dcontent-media {
+        grid-column: 6/span 7;
+        grid-row: 2/3;
+    }
+    .Dcontentlastmedia {
+        grid-column: 1/span 9;
+    }
+    .Dlastcontainer {
+        padding-top: 0;
     }
 
 }

@@ -37,7 +37,29 @@ menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
 // Showing Banner on Mondays and Tuesdays
+const social = document.querySelector('.social-menu')
 const banner = document.querySelector('.banner');
 if (d.getDay() == 1 || d.getDay() == 2) {
     banner.style.display = "block";
+    social.classList.toggle('is-active');
+    menu.style.top = "40%";
 }
+
+// Number of Site Visits
+
+let numberOfVisits = localStorage.getItem("numberOfVisits");
+
+if (!numberOfVisits) {
+    numberOfVisits = 0;
+}
+numberOfVisits++;
+
+localStorage.setItem("numberOfVisits", numberOfVisits);
+document.querySelector('.visit').innerHTML = "This is your visit #" + numberOfVisits + " on this webpage";
+
+if (numberOfVisits < 2) {
+    document.querySelector('.visit').innerHTML = "Thanks for visiting!"
+}
+
+
+

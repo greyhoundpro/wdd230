@@ -69,6 +69,12 @@ header {
     right: 5%;
     transform: translate(5%, 20%);
 }
+#mobile-menu.active {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    transform: translate(5%, 20%);
+}
 
 .social-menu {
     display: flex;
@@ -78,8 +84,15 @@ header {
     top:30%;
     right: 15%;
     z-index: 100;
-    
 }
+
+.social-menu.is-active {
+    padding-right: 0;
+    display: flex;
+    top: 40%;
+    right: 15%;
+}
+
 
 .navbar-menu {
     display: grid;
@@ -157,12 +170,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background: linear-gradient(to right, #6190e8, #a7bfe8);
     margin: 15px auto 0 auto;
     padding: 8px;
     font-family: var(--paragraph-font);
     font-size: .96rem;
 }   
+.visit {
+    display: block;
+}
 
 
 
@@ -435,23 +452,96 @@ button {
 
 /* DISCOVER */
 
+.discover-main img {
+    width: 100%;
+    height: 100%;
+    
+}
+
 .discover-hero-container {
     display: grid;
     max-width: 1440px;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     column-gap: 2rem;
-    margin: 0 auto;
     justify-content: center;
     align-items: center;
-    
 }
 .discover-hero-title {
-    font-size: rem;
+    font-size: 1.3rem;
     padding: 0px 16px;
     margin: 0 0 24px;
     grid-column: 1/span 4;
     text-align: center;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.discover-hero-title h1 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.discover-media {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/span 4;
+}
+.discover-hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 28rem;
+}
+.Dcontainer {
+    padding-top: 4rem;
+}
+.Dcontent1 {
+    display: grid;
+    max-width: 1440px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    position: relative;
+    
+
+}
+.Dcontent-head, .Dcontent-text, .Dcontent-media {
+    grid-column: 1/span 4;
+    margin-top: 18px;
+    
+}
+.Dcontent-head h2 {
+    text-align: left;
+    font-family: var(--heading-font);
+    border-top: 1px solid #9D9D9D;
+    padding-top: 2rem;
+}
+
+.Dcontent-text {
+    
+    line-height: 1.8rem;
+    grid-column: 1/span 4;
+}
+.Dcontent-media img {
+    width: 100%;
+    height: 100%;
+    max-height: 398px;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px;
+}
+.Dcontentlast {
+    padding-bottom: 5rem;
+}
+
+
+
+figcaption {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
 }
 
 
