@@ -46,6 +46,7 @@ header {
     top: 0;
 }
 
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -398,6 +399,9 @@ button {
 }
 .joinP {
     max-width: 80%;
+}
+.handshake {
+    display: none;
 }
 
 #event-container {
