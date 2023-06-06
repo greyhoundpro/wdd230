@@ -37,6 +37,9 @@ th, td {
     border: .5px solid  hsla(0, 0%, 20%, 0.26);
     padding: 10px 20px;
 }
+th {
+    font-size: larger;
+}
 
 .check {
     font-weight: 700;
@@ -50,7 +53,7 @@ th, td {
     color: lightcoral;
     text-align: center;
 }
-tr:nth-child(2) th:not(.blank)  {
+tr:nth-child(2) th:not(.blank, tbody th)  {
     background: #74ebd5; 
 }
 thead tr:nth-child(1), .blank {
