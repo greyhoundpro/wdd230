@@ -192,4 +192,28 @@
         padding-top: 0;
     }
 
+    /* ---------- Join ------------- */
+    
+    .fmain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 97%;
+        justify-content: center;
+    }
+    .fmain form {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .fmain h1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .fmain table {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: 100%;
+        display: table;
+        height: fit-content;
+    }
+
 }
