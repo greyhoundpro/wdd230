@@ -39,6 +39,9 @@
     .event-btn {
         margin-bottom: 13vw;
     }
+    .button {
+        width: 30%;
+    }
     #news-container {
         grid-column: 1/4;
         grid-row: 2/3;
@@ -104,15 +107,7 @@
         align-items: center;
         text-align: center;
     }
-    #join-btn {
-        text-decoration: none;
-        color: #131313;
-        text-decoration: none;
-        font-weight: 700;
-        transition: all 0.5s ease;
-        font-size: 1.2rem;
-        width: 80%;
-    }
+    
     .button:hover {
         background: #aec5f1;
         transition: all 0.5s ease;
