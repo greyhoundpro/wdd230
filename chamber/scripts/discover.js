@@ -33,8 +33,8 @@ if (numberOfVisits < 2) {
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
-    threshold: 0.5, 
-    rootMargin: "0px 0px -100px 0px"
+    threshold: 0, 
+    rootMargin: "0px 0px -50px 0px"
 }
 
 const loadImages = (image) => {
