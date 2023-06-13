@@ -544,7 +544,13 @@ button {
     max-height: 398px;
     object-fit: cover;
     box-shadow: 5px 5px 10px;
+    filter:blur(0em);
+    transition: filter 0.5s ease;
 }
+.Dcontent-media img[data-src] {
+    filter: blur(0.2em);
+}
+
 .Dcontentlast {
     padding-bottom: 5rem;
 }
