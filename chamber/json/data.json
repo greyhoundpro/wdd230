@@ -5,7 +5,7 @@
             "company" : "Converge ICT Solution Inc. Alaminos City", 
             "address" : "5X2M+PPC, Quezon Ave, Poblacion, Alaminos, Pangasinan",
             "phone" : "0987-654-3210",
-            "Website" : "convergeict.com/",
+            "website" : "convergeict.com/",
             "email" : "customercare@convergeict.com"
 
         },
@@ -14,7 +14,7 @@
             "company" : "Rustic Crown Hotel", 
             "address" : "Lucap, Alaminos, Philippines",
             "phone" : "0915-381-9170",
-            "Website" : "facebook.com/RusticCrownHotel",
+            "website" : "facebook.com/RusticCrownHotel",
             "email" : "rusticcrownhotel@gmail.com"
 
         },
@@ -23,16 +23,16 @@
             "company" : "STI Alaminos", 
             "address" : "08 Marcos Avenue, Alaminos, Philippines",
             "phone" : "(075)-540-9198",
-            "Website" : "sti.edu/",
+            "website" : "sti.edu/",
             "email" : "academic.head@alaminos.sti.edu"
 
         },
         {
-            "logo" : "images/rsz-1solar.jpg",
+            "logo" : "images/rsz_1solar.jpg",
             "company" : "Solar Lights Alaminos", 
             "address" : "Alaminos, Pangasinan, Philippines",
             "phone" : "0905-486-1164",
-            "Website" : "facebook.com/people/Solar-Lights-Alaminos/100082915493940/",
+            "website" : "facebook.com/people/Solar-Lights-Alaminos/100082915493940/",
             "email" : "pgcarlvincent@gmail.com"
 
         },
@@ -41,7 +41,7 @@
             "company" : "OTW Alaminos", 
             "address" : "Brgy. Poblacion, Alaminos, Philippines",
             "phone" : "0961-217-0002",
-            "Website" : "facebook.com/otwalaminos",
+            "website" : "facebook.com/otwalaminos",
             "email" : "otwalaminos@gmail.com"
 
         },
@@ -50,7 +50,7 @@
             "company" : "Magic Appliance Alaminos", 
             "address" : "Marcos Avenue, Alamminos City, Pangasinan",
             "phone" : "0933-811-7125",
-            "Website" : "magicappliance.com.ph/",
+            "website" : "magicappliance.com.ph/",
             "email" : "magicappliancecenter.alaminos@gmail.com"
 
         },
@@ -59,7 +59,7 @@
             "company" : "Wangja Alaminos Korean Mart", 
             "address" : "Unit 1 San Jose Building 2 Along, Quezon Ave, Poblacion, Alaminos, 2404 Pangasinan",
             "phone" : "0905-106-5564",
-            "Website" : "facebook.com/Wangja.Alaminos",
+            "website" : "facebook.com/Wangja.Alaminos",
             "email" : "wangja.alaminos@gmail.com"
 
         },
@@ -68,7 +68,7 @@
             "company" : "Ate Rica's Bacsilog", 
             "address" : "People's Food Court People's Park, Alaminos City, Pangasinan",
             "phone" : "0968-862-6641",
-            "Website" : "facebook.com/arbacsilog.alaminos",
+            "website" : "facebook.com/arbacsilog.alaminos",
             "email" : "arbacsilog.alaminos@gmail.com"
 
         },
@@ -77,7 +77,7 @@
             "company" : "BonTea", 
             "address" : "32 Quezon Ave. Consuelo Auto Supply Building, Alaminos City, Pangasinan",
             "phone" : "0956-675-4934",
-            "Website" : null,
+            "website" : null,
             "email" : "bonteapoblacionalaminos@gmail.com"
 
         }
