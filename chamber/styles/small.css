@@ -796,6 +796,7 @@ tbody tr:nth-child(even) {
 .list {
     display: block;
     text-align: left;
+    margin-top: 50px;
     
 }
 .list div:nth-child(odd) {
