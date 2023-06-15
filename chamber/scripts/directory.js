@@ -9,10 +9,11 @@ async function getBusinessData() {
 getBusinessData();
 
 const displayBusiness = (businesses) => {
-    const cards = document.querySelector('div.cards');
+    const cards = document.querySelector('div#cards');
 
     businesses.forEach((business) => {
         let item = document.createElement('div');
+        item.classList.add('DItems');
         let compLogo = document.createElement('img'); 
         let compName = document.createElement('h3'); 
         let compAdd = document.createElement('p');
@@ -26,7 +27,7 @@ const displayBusiness = (businesses) => {
         if (business.website != null) {
             let compSite = document.createElement('a');
             compSite.href = `${business.website}`;
-            compSite.textContent = `${business.website}`;
+            compSite.textContent = "Webpage";
             item.appendChild(compSite);
         }
         let compEmail = document.createElement('a');
@@ -36,13 +37,14 @@ const displayBusiness = (businesses) => {
         compLogo.setAttribute('src', business.logo);
         compLogo.setAttribute('alt', `Company logo of ${business.company}`);
         compLogo.setAttribute('loading', 'lazy');
-        compLogo.setAttribute('width', '300');
-        compLogo.setAttribute('height', '300');
+        compLogo.setAttribute('width', '120');
+        compLogo.setAttribute('height', '120');
 
         compName.textContent = `${business.company}`;
         compAdd.textContent = `${business.address}`;
         compPhone.textContent = `${business.phone}`;
-        
+        compEmail.textContent = "Send Email";
+        compEmail.href = `mailto:${business.email}`;
 
         cards.appendChild(item);
         

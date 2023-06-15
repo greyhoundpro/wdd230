@@ -760,6 +760,26 @@ tbody tr:nth-child(even) {
     border: none;
     outline: none;
 }
+.DItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 2%;
+    /* border: 2px solid grey; */
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+.DItems > * {
+    margin: 5px 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
 
 
 
