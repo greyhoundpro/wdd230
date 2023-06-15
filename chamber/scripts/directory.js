@@ -14,7 +14,7 @@ const displayBusiness = (businesses) => {
     businesses.forEach((business) => {
         let item = document.createElement('div');
         let compLogo = document.createElement('img'); 
-        let compName = document.createElement('h2'); 
+        let compName = document.createElement('h3'); 
         let compAdd = document.createElement('p');
         let compPhone = document.createElement('p');
 
@@ -38,6 +38,10 @@ const displayBusiness = (businesses) => {
         compLogo.setAttribute('loading', 'lazy');
         compLogo.setAttribute('width', '300');
         compLogo.setAttribute('height', '300');
+
+        compName.textContent = `${business.company}`;
+        compAdd.textContent = `${business.address}`;
+        compPhone.textContent = `${business.phone}`;
         
 
         cards.appendChild(item);
