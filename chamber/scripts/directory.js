@@ -9,7 +9,7 @@ async function getBusinessData() {
 getBusinessData();
 
 const displayBusiness = (businesses) => {
-    const cards = document.querySelector('div#cards');
+    const cards = document.querySelector('#cards');
 
     businesses.forEach((business) => {
         let item = document.createElement('div');
@@ -51,3 +51,35 @@ const displayBusiness = (businesses) => {
     })
 }
 
+// For buttons
+
+const gridBtn = document.querySelector('#grid');
+const listBtn = document.querySelector('#list');
+
+function changeToGrid() {
+    cards.classList.add('grid');
+    cards.classList.remove('list');
+    localStorage.setItem('displayPref', cards.classList);
+    
+    
+};
+
+gridBtn.addEventListener('click', changeToGrid);
+
+const changeToList = () => {
+    cards.classList.add('list');
+    cards.classList.remove('grid');
+    localStorage.setItem('displayPref', cards.classList);
+}
+
+listBtn.addEventListener('click', changeToList);
+
+// For preferred display
+
+
+if (!localStorage.getItem('displayPref')) {
+    localStorage.setItem('displayPref', cards.classList);
+}
+else {
+    cards.classList = localStorage.getItem('displayPref'); 
+}

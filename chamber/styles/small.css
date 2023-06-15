@@ -760,25 +760,55 @@ tbody tr:nth-child(even) {
     border: none;
     outline: none;
 }
-.DItems {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 5% 2%;
-    /* border: 2px solid grey; */
-    background-color: var(--primary-color);
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px;
+
+.DItems a {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.DItems a:hover {
+    color: red;
+    transition: all 0.5s ease;
+}
+.DItems a:visited {
+    color: purple;
 }
 .DItems > * {
     margin: 5px 0;
 }
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin: 20px;
+    
+}
+.grid div{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 2%;
+}
+.list {
+    display: block;
+    text-align: left;
+    
+}
+.list div:nth-child(odd) {
+    background-color: var(--primary-color);
+}
+.list div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px 30px 10vw;
+}
+
+.list img {
+    display: none;
 }
 
 
