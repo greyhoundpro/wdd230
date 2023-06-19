@@ -62,7 +62,7 @@
                 <div class="formTitle">Contact Information</div>
                 <label class="up" for="fname">First Name*<input id="fname" type="text" name="fname" required></label>
                 <label class="up" for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
-                <label class="up" for="position">Position Title<input type="text" id="position" name="position" pattern="[a-zA-Z -]{7,}" placeholder="Owner" title="Please enter your business position title." ></label>
+                <label class="up" for="position">Position Title<input type="text" id="position" name="position" pattern="[A-Za-z\s\-]{7,}" placeholder="Owner" title="Please enter at least 7 alphabetical characters, hyphens, or spaces." ></label>
                 <label class="up" for="email">Email*<input type="email" name="email" id="email" required placeholder="someone@example.com"></label>
                 <label class="up" for="phone">Phone #*<input type="tel" name="phone" id="phone" required placeholder="123455789"> </label>
                 <label class="up" for="businessName">Business Name*<input type="text" id="businessName" name="businessName" required></label>
@@ -86,7 +86,7 @@
                     <th colspan="5" class="title">ACOC Membership Levels</th>
                 </tr>
                 <tr>
-                    <th class="blank">&nbsp;</th>
+                    <td class="blank">&nbsp;</td>
                     <th>Non-Profit<br><span>(Free)</span></th>
                     <th>Bronze <br><span>($1500 annually)</span></th>
                     <th>Silver <br><span>($2500 annually)</span></th>
@@ -183,7 +183,7 @@
         <hr>
         <div id="student-name">
             <p>&copy; <span id="year"></span>  Alaminos Chamber </p>
-            <h4>Jayvee Galosmo</h4>
+            <p class="name">Jayvee Galosmo</p>
             <p class="project-name">WDD 230 Project</p>
             <p class="modified">Last updated: <span id="modified-date"></span> <span id="modified-time"></span></p>
         </div>

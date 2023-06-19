@@ -717,7 +717,7 @@ th {
 .xicon {
     font-weight: 700;
     font-size: 30px;
-    color: lightcoral;
+    color: rgb(193, 8, 8);
     text-align: center;
 }
 tr:nth-child(2) th:not(.blank, tbody th)  {
@@ -851,6 +851,10 @@ hr {
 }
 #modified-time {
     padding: 0 10px;
+}
+
+footer .name {
+    font-weight: 700;
 }
 
 
