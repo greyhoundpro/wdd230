@@ -39,8 +39,7 @@ figure {
     padding: 0;
     padding-bottom: 100px;
 }
-figure img {
-}
+
 
 figcaption::first-letter {
     text-transform: uppercase;
