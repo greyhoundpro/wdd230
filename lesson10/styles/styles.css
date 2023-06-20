@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     min-width: 377px;
-    
+    color: #fff;
 
 }
 
@@ -20,7 +20,10 @@ main {
     flex-direction: column;
     align-items: left;
     padding: 5%;
-    background-color: #D3EBF3;
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1488CC, #2B32B2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1488CC, #2B32B2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,7 +46,6 @@ figcaption::first-letter {
     text-transform: uppercase;
 }
 figcaption {
-    color: #131313;
     font-weight: 700;
 }
 
