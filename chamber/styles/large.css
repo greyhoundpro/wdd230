@@ -66,6 +66,9 @@
     .hero-btn {
         font-size: 1.5vw;
     }
+    #join-btn {
+        width: 60%;
+    }
     
     #event-container img {
         width: 100%;

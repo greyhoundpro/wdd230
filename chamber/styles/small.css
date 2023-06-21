@@ -139,6 +139,7 @@ header {
     font-weight: 700;
     text-align: center;
     width: 100%;
+    font-size: 1.2rem;
 }
 
 #mobile-menu.is-active .bar:nth-child(2) {
@@ -203,18 +204,10 @@ button {
 }
 .main-containers {
     height: auto;
-    /* justify-content: center; */
     align-items: center;
     transition: all 0.5s ease;
 }
-/* #hero-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.227),rgba(0, 0, 0, 0.4));
-    height: auto;
-} */
+
 
 #hero-container {
     display: flex;
@@ -230,8 +223,8 @@ button {
 .button {
     padding:  10px;
     width: 40%;
-    background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #74ebd5;  
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5); 
     background: linear-gradient(to right, #ACB6E5, #74ebd5);
     border: none;
     outline: none;
@@ -519,6 +512,9 @@ button {
 }
 .Dcontainer {
     padding-top: 4rem;
+}
+.Dcontainer > * {
+    transition: all 0.5s ease;
 }
 .Dcontent1 {
     display: grid;
