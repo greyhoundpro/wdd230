@@ -75,6 +75,7 @@
     }
     .event-btn {
         margin-bottom: 3.5vw;
+        width: 40%;
     }
     #weather-container {
         grid-column: 1/2;

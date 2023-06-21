@@ -13,6 +13,7 @@
     font-family: "Kumbh Sans", sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 body {
@@ -435,9 +436,13 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: #057fd1;
+    color: #fff;
+}
+#weather-container h1 {
+    margin-top: 10px;
 }
 .windchillspeed {
     display: flex;
@@ -451,6 +456,9 @@ button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+#wDescription::first-letter {
+    text-transform: uppercase;
 }
 
 
@@ -572,6 +580,7 @@ form {
     transition: all 0.5s ease;
 }
 form fieldset {
+    position: relative;
     margin: 2rem 0;
     border-radius: 10px;
     padding: 1rem 3%;
@@ -591,10 +600,15 @@ form fieldset {
     height: 50vh;
 }
 form legend {
-    font-size: 1.5rem;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 1.4rem;
     padding: .5rem;
-    width: 40%;
-    margin: .5rem 1rem;
+    width: 90%;
+    margin: .5rem;
+    color: #131313;
+    font-weight: 700;
     
 }
 form label.up {
@@ -602,6 +616,9 @@ form label.up {
     color: rgb(19, 78, 187);
     padding-top: 1rem;
     font-size: .8rem;
+}
+form label:first-of-type {
+    margin-top: 60px;
 }
 form label.side {
     display: block;
@@ -679,9 +696,6 @@ form label.up input:required:valid {
     letter-spacing: 1px;
     width: 50%;
     transition: all 0.5s ease;
-
-    
-
     display: none;
 }
 caption {
