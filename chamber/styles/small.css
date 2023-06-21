@@ -429,13 +429,14 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px 30px 20px;
     text-align: center;
     background-color: #057fd1;
     color: #fff;
 }
 #weather-container h1 {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .windchillspeed {
     display: flex;
@@ -753,6 +754,9 @@ tbody tr:nth-child(even) {
     align-items: center;
     margin: 10px auto;
     gap: 30px;
+}
+.directory > * {
+    transition: all 0.5s ease;
 }
 .btn-container img {
     height: 40px;
