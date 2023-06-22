@@ -168,6 +168,12 @@ header {
 }
 .social-links img {
     width: 100%;
+    transition: all 0.5s ease;
+
+}
+.social-links img:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.2);
 }
 
 
@@ -326,7 +332,8 @@ button {
 }
 #news-container a:hover {
     transition: all 0.3s ease;
-    color: var(--secondary-color);
+    color: #086100;
+    transform: scale(1.1);
 }
 
 /*- ------------Spotlight-------------- */
@@ -453,6 +460,21 @@ button {
 }
 #wDescription::first-letter {
     text-transform: uppercase;
+}
+.credits {
+    font-size: .8rem;
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+}
+.credLink {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-size: .8rem;
+    color: #fff;
+}
+.credits:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
 }
 
 
@@ -854,6 +876,13 @@ footer {
 }
 .mapLink {
     text-decoration: none;
+    display: block;
+    transition: all 0.5s ease;
+}
+.mapLink:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+    color: #086100;
 }
 hr {
     margin: 10px;
