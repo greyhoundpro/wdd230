@@ -35,12 +35,6 @@ function getwindChill(tempF, speed) {
     return f;
 }
 
-// function for converting celsius to farenheit
-function convertCelsiusToF(celsius) {
-    return Math.floor(celsius * (9/5) + 32);
-}
-
-
 function NA() {
     const result = document.querySelector('#windChill');
     result.textContent = "N/A";
