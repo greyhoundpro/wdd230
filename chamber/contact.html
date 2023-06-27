@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This page helps a new member to learn about the chamber membership levels and benefits and gives an opportunity 
-    to sign up in a contact form.">
-    <title>Join Us | Alaminos Chamber</title>
+    <meta name="description" content="Contact Alaminos Chamber of Commerce using our form and send us your inquiry. Send us a message
+    to know more about the chamber and it's members">
+    <title>Contact Us | Alaminos Chamber</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -35,12 +34,12 @@
                         <a href="discover.html" class="navbar-links">Discover</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#directory" class="navbar-links">Directory</a>
+                        <a href="directory.html" class="navbar-links">Directory</a>
                     </li>
                     <li class="navbar-item">
                         <a href="join.html" class="navbar-links">Join</a>
                     </li>
-                    <li class="navbar-item">
+                    <li class="navbar-item currentSite">
                         <a href="contact.html" class="navbar-links">Contact</a>
                     </li>
                 </ul>
@@ -58,9 +57,30 @@
             </div>
         </nav>
     </header>
-    <main class="fmain-thanks">
-        <h1>Thank you!</h1>
-        <p>We will reach out to you through email once we have finalized your membership registration. </p>
+    <main class="contactmain">
+        <h1>Contact Us</h1>
+        
+        <form action="thanks2.html"  method="get">
+            <fieldset>
+                <legend class="formTitle">Contact Information</legend>
+                    <label class="up" for="fname">First Name*<input id="fname" type="text" name="fname" required></label>
+                <label class="up" for="lname">Last Name*<input type="text" id="lname" name="lname" required></label>
+                <label class="uplarge">Your Message<textarea name="bdesc"></textarea></label>
+            </fieldset>
+            <input type="hidden" id="hidDateAndTime">
+            <input type="submit" class="submitBtn" value="Send Message">
+        </form>
+        <div class="conContainer1">
+            <h2>Contact Us</h2>
+            <h3>Address</h3>
+            <p>Corporate Center</p>
+            <p>L Rivera Sr, Poblacion</p>
+            <p>Alaminos City, Pangasinan 2404</p>
+            <h3>Phone</h3>
+            <p>+(234) 5394-3493</p>
+            <h3>Email</h3>
+            <p>info@alaminoscoc.org</p>
+        </div>
     </main>
     <footer>
         <div class="footer-container1">
@@ -73,6 +93,8 @@
                 <p class="email">info@alaminoscoc.org</p>
                 <p>+(234) 5394-3493</p>
                 <a class="mapLink" target="_blank" href="https://goo.gl/maps/XzCdSNuxoWqPwX197">📍Location Map</a>
+                <a class="mapLink" target="_blank" href="https://openweathermap.org/">🌦️OpenWeatherMap </a>
+
             </div>
         </div>
         <hr>
@@ -85,5 +107,6 @@
             
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/contact.js"></script>
 </body>
 </html>

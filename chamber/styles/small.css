@@ -10,10 +10,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Kumbh Sans", sans-serif;
+    font-family: var(--paragraph-font);
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
@@ -606,14 +606,17 @@ form fieldset {
     position: relative;
     margin: 2rem 0;
     border-radius: 10px;
-    padding: 1rem 3%;
+    padding: 1rem 8%;
     background-color: #e6f2f6;
 }
-.fmain h1, .fmain p {
+.fmain h1, .fmain p, .contactmain h1 {
     padding: 1rem 3%;
     margin: 2rem 2%;
     transition: all 0.5s ease;
-
+}
+.contactmain h1 {
+    text-align: center;
+    font-size: 2rem;
 }
 .fmain-thanks p, .fmain-thanks h1 {
     padding: 1rem 3%;
@@ -766,6 +769,53 @@ thead span {
 tbody tr:nth-child(even) {
     background-color: hsl(0, 0%, 93%, 1);;
 }
+
+/* -----------CONTACT------------ */
+
+.conContainer1 h2 {
+    font-size: 1.5rem;
+    margin: 30px auto;
+}
+.conContainer1 h3 {
+    font-size: 1.2rem;
+    margin: 15px auto;
+}
+.contactmain {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 10% 100px 5%;
+}
+.contactmain > * {
+    transition: all 0.5s ease;
+}
+.conContainer1 {
+    margin-left: 15%
+}
+.thanksdisplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #e6f2f6;
+    padding: 5%;
+    z-index: 2;
+}
+.thanksdisplay p {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.homeLink {
+    color: rgb(82, 82, 196);
+    text-decoration: none;
+    font-size: inherit;
+    transition: all 0.5s ease;
+}
+
 
 /* ------------ Directory--------------- */
 
