@@ -6,7 +6,8 @@
             "address" : "5X2M+PPC, Quezon Ave, Poblacion, Alaminos, Pangasinan",
             "phone" : "0919-057-2428",
             "website" : "https://convergeict.com/",
-            "email" : "customercare@convergeict.com"
+            "email" : "customercare@convergeict.com",
+            "status" : "silver"
 
         },
         {
@@ -15,7 +16,8 @@
             "address" : "Lucap, Alaminos, Philippines",
             "phone" : "0915-381-9170",
             "website" : "https://facebook.com/RusticCrownHotel",
-            "email" : "rusticcrownhotel@gmail.com"
+            "email" : "rusticcrownhotel@gmail.com",
+            "status" : "gold"
 
         },
         {
@@ -24,7 +26,8 @@
             "address" : "08 Marcos Avenue, Alaminos, Philippines",
             "phone" : "(075)-540-9198",
             "website" : "https://sti.edu/",
-            "email" : "academic.head@alaminos.sti.edu"
+            "email" : "academic.head@alaminos.sti.edu",
+            "status" : "gold"
 
         },
         {
@@ -33,7 +36,8 @@
             "address" : "Alaminos, Pangasinan, Philippines",
             "phone" : "0905-486-1164",
             "website" : "https://facebook.com/people/Solar-Lights-Alaminos/100082915493940/",
-            "email" : "pgcarlvincent@gmail.com"
+            "email" : "pgcarlvincent@gmail.com",
+            "status" : "bronze"
 
         },
         {
@@ -42,7 +46,8 @@
             "address" : "Brgy. Poblacion, Alaminos, Philippines",
             "phone" : "0961-217-0002",
             "website" : "https://facebook.com/otwalaminos",
-            "email" : "otwalaminos@gmail.com"
+            "email" : "otwalaminos@gmail.com",
+            "status" : "silver"
 
         },
         {
@@ -51,7 +56,8 @@
             "address" : "Marcos Avenue, Alaminos City, Pangasinan",
             "phone" : "0933-811-7125",
             "website" : "https://magicappliance.com.ph/",
-            "email" : "magicappliancecenter.alaminos@gmail.com"
+            "email" : "magicappliancecenter.alaminos@gmail.com",
+            "status" : "gold"
 
         },
         {
@@ -60,7 +66,8 @@
             "address" : "Unit 1 San Jose Building 2 Along, Quezon Ave, Poblacion, Alaminos, 2404 Pangasinan",
             "phone" : "0905-106-5564",
             "website" : "https://facebook.com/Wangja.Alaminos",
-            "email" : "wangja.alaminos@gmail.com"
+            "email" : "wangja.alaminos@gmail.com",
+            "status" : "bronze"
 
         },
         {
@@ -69,7 +76,8 @@
             "address" : "People's Food Court People's Park, Alaminos City, Pangasinan",
             "phone" : "0968-862-6641",
             "website" : "https://facebook.com/arbacsilog.alaminos",
-            "email" : "arbacsilog.alaminos@gmail.com"
+            "email" : "arbacsilog.alaminos@gmail.com",
+            "status" : "bronze"
 
         },
         {
@@ -78,7 +86,8 @@
             "address" : "32 Quezon Ave. Consuelo Auto Supply Building, Alaminos City, Pangasinan",
             "phone" : "0956-675-4934",
             "website" : null,
-            "email" : "bonteapoblacionalaminos@gmail.com"
+            "email" : "bonteapoblacionalaminos@gmail.com",
+            "status" : "bronze"
 
         }
         
