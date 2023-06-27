@@ -28,6 +28,7 @@ const displayBusiness = (businesses) => {
             let compSite = document.createElement('a');
             compSite.href = `${business.website}`;
             compSite.textContent = "Webpage";
+            compSite.setAttribute('target', '_blank')
             item.appendChild(compSite);
         }
         let compEmail = document.createElement('a');
