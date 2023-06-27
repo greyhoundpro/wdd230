@@ -17,6 +17,11 @@
         align-items: last baseline;
         justify-content: center;
         height: 100%;
+        padding-bottom: 10px;
+    }
+    .currentSite {
+        border-bottom: 3.5px solid #057fd1;
+        
     }
     .navbar-toggle .bar {
         display: none;
