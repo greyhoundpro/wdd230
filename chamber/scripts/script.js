@@ -70,6 +70,7 @@ const displayBusiness = (businesses) => {
 
             let link = document.createElement('a');
             link.classList.add('spotlink');
+            link.setAttribute('target', '_blank');
             let picture = document.createElement('picture');
             let compLogo = document.createElement('img'); 
             compLogo.classList.add('spotlight-img')

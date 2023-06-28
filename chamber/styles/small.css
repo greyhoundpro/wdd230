@@ -213,6 +213,7 @@ button {
     height: auto;
     align-items: center;
     transition: all 0.5s ease;
+
 }
 
 
@@ -347,11 +348,7 @@ button {
     height: auto;
     
 }
-.spotlight-container {
-    width: 100%;
-    height: auto;
-    
-}
+
 #spotlight a:nth-child(1), #spotlight a:nth-child(2) {
     display: flex;
     flex-direction: column;
