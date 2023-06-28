@@ -7,7 +7,8 @@
             "phone" : "0919-057-2428",
             "website" : "https://convergeict.com/",
             "email" : "customercare@convergeict.com",
-            "status" : "silver"
+            "status" : "silver",
+            "slogan": "Your Pure End-to-End Fiber Internet."
 
         },
         {
@@ -17,7 +18,8 @@
             "phone" : "0915-381-9170",
             "website" : "https://facebook.com/RusticCrownHotel",
             "email" : "rusticcrownhotel@gmail.com",
-            "status" : "gold"
+            "status" : "gold",
+            "slogan": "A Touch of Hospitality at the Home."
 
         },
         {
@@ -27,7 +29,8 @@
             "phone" : "(075)-540-9198",
             "website" : "https://sti.edu/",
             "email" : "academic.head@alaminos.sti.edu",
-            "status" : "gold"
+            "status" : "gold",
+            "slogan" : "Be future-ready. Be STI."
 
         },
         {
@@ -37,7 +40,8 @@
             "phone" : "0905-486-1164",
             "website" : "https://facebook.com/people/Solar-Lights-Alaminos/100082915493940/",
             "email" : "pgcarlvincent@gmail.com",
-            "status" : "bronze"
+            "status" : "bronze", 
+            "slogan" : "Aims to make your life brighter."
 
         },
         {
@@ -47,7 +51,8 @@
             "phone" : "0961-217-0002",
             "website" : "https://facebook.com/otwalaminos",
             "email" : "otwalaminos@gmail.com",
-            "status" : "silver"
+            "status" : "silver", 
+            "slogan"    : "You can't find a way? We're on the way."
 
         },
         {
@@ -57,7 +62,8 @@
             "phone" : "0933-811-7125",
             "website" : "https://magicappliance.com.ph/",
             "email" : "magicappliancecenter.alaminos@gmail.com",
-            "status" : "gold"
+            "status" : "gold", 
+            "slogan": "No. 1 Appliance and Furniture Store North of Manila"
 
         },
         {
@@ -67,7 +73,8 @@
             "phone" : "0905-106-5564",
             "website" : "https://facebook.com/Wangja.Alaminos",
             "email" : "wangja.alaminos@gmail.com",
-            "status" : "bronze"
+            "status" : "bronze", 
+            "slogan" : "Satisfy your Korean Mukbang at Home"
 
         },
         {
@@ -77,7 +84,8 @@
             "phone" : "0968-862-6641",
             "website" : "https://facebook.com/arbacsilog.alaminos",
             "email" : "arbacsilog.alaminos@gmail.com",
-            "status" : "bronze"
+            "status" : "bronze", 
+            "slogan" : "Yum-meaty, healthy shawarma silog!"
 
         },
         {
@@ -87,7 +95,8 @@
             "phone" : "0956-675-4934",
             "website" : null,
             "email" : "bonteapoblacionalaminos@gmail.com",
-            "status" : "bronze"
+            "status" : "bronze", 
+            "slogan" : "Milktea Shop"
 
         }
         
