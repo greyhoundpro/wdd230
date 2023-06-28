@@ -13,7 +13,7 @@
     font-family: var(--paragraph-font);
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-size: 16px;
+    
 }
 
 body {
@@ -350,6 +350,7 @@ button {
 .spotlight-container {
     width: 100%;
     height: auto;
+    
 }
 #spotlight a:nth-child(1), #spotlight a:nth-child(2) {
     display: flex;
@@ -360,6 +361,7 @@ button {
 .spotlight-img {
     width: 100%;
     height: auto;
+    border: 2px solid grey;
 }
 .spotlight-overlay {
     position: absolute;
@@ -866,6 +868,9 @@ tbody tr:nth-child(even) {
 }
 .DItems > * {
     margin: 5px 0;
+}
+.DItems h2 {
+    font-size: 1.2em;
 }
 .grid {
     display: grid;

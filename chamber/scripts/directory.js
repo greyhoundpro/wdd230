@@ -15,7 +15,7 @@ const displayBusiness = (businesses) => {
         let item = document.createElement('div');
         item.classList.add('DItems');
         let compLogo = document.createElement('img'); 
-        let compName = document.createElement('h3'); 
+        let compName = document.createElement('h2'); 
         let compAdd = document.createElement('p');
         let compPhone = document.createElement('p');
 
