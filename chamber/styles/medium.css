@@ -58,7 +58,10 @@
     .spotlight-overlay h2 {
         font-size: 3vw;
     }
-    #spotlight3 {
+    .spotlight-overlay p {
+        font-size: 2vw;
+    }
+    #spotlight a:nth-child(3) {
         display: none;
     }
     

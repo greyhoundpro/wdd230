@@ -120,12 +120,15 @@
         width: 100%;
     }
     
-    #spotlight3 {
+    #spotlight a:nth-child(3) {
         display: flex;
         position: relative;
     }
     .spotlight-overlay h2 {
-        font-size: 1.7vw;
+        font-size: 1.8vw;
+    }
+    .spotlight-overlay p {
+        font-size: 1.2vw;
     }
     .spotlink {
         transition: all 0.5s ease;

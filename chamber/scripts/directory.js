@@ -38,8 +38,8 @@ const displayBusiness = (businesses) => {
         compLogo.setAttribute('src', business.logo);
         compLogo.setAttribute('alt', `Company logo of ${business.company}`);
         compLogo.setAttribute('loading', 'lazy');
-        compLogo.setAttribute('width', '120');
-        compLogo.setAttribute('height', '120');
+        compLogo.setAttribute('width', '100');
+        compLogo.setAttribute('height', '100');
 
         compName.textContent = `${business.company}`;
         compAdd.textContent = `${business.address}`;

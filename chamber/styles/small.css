@@ -345,18 +345,19 @@ button {
     display: block;
     text-align: center;
     height: auto;
+    
 }
 .spotlight-container {
     width: 100%;
     height: auto;
 }
-#spotlight1, #spotlight2 {
+#spotlight a:nth-child(1), #spotlight a:nth-child(2) {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
 }
-.spotlight-img1 {
+.spotlight-img {
     width: 100%;
     height: auto;
 }
@@ -375,9 +376,12 @@ button {
 }
 .spotlight-overlay h2 {
     margin-bottom: 5px;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 128%;
     
+}
+.spotlight-overlay p {
+    font-size: 3vw;
 }
 #spotlight picture {
     height: 100%;
@@ -387,6 +391,7 @@ button {
 }
 .spotlink {
     transition: all 0.5s ease;
+    position: relative;
 }
 .spotlink:hover {
     transition: all 0.2s ease;
@@ -394,7 +399,7 @@ button {
 }
 
 
-#spotlight3 {
+#spotlight a:nth-child(3) {
     display: none;
 }
 #join-container {
