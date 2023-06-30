@@ -965,7 +965,7 @@ footer {
     color: blue;
 }
 .mapLink:hover {
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     transform: scale(1.1);
     color: #086100;
 }
