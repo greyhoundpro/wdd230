@@ -54,12 +54,12 @@ const url1 = 'https://greyhoundpro.github.io/wdd230/chamber/json/data.json';
 async function getBusinessData() {
     const response = await fetch(url1);
     const data = await response.json();
-    displayBusiness(data.business);
+    displayBusiness1(data.business);
 }
 
 getBusinessData();
 
-const displayBusiness = (businesses) => {
+const displayBusiness1 = (businesses) => {
     const spotlight = document.querySelector('#spotlight');
 
     businesses.forEach((business) => {
