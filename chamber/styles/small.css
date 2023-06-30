@@ -415,7 +415,6 @@ button {
 #event-container {
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
     height: 100%;
     position: relative;
 
