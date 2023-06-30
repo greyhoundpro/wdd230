@@ -229,16 +229,14 @@ button {
 
 
 .button {
-    padding:  10px;
+    padding:  14px ;
     width: 40%;
     background: #74ebd5;  
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5); 
-    background: linear-gradient(to right, #ACB6E5, #74ebd5);
-    border: none;
-    outline: none;
+    /* background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5); 
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); */
     border-radius: 4px;
     box-shadow: 5px 5px 10px black;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -246,6 +244,7 @@ button {
     color: #131313;
     font-weight: 700;
     font-size: 1.2rem;
+    z-index: 2;
 }
 .hero-button {
     margin: 2rem 20px;
@@ -253,10 +252,11 @@ button {
 
 
 .button:hover {
-    background:#aec5f1;
     transition: all 0.5s ease;
     transform: scale(1.1);
+    background-color: #aec5f1;
 }
+
 
 .overlay {
     position: absolute;
@@ -330,7 +330,6 @@ button {
     color: blue;
     text-decoration: none;
     transition: all 0.3s ease;
-    opacity: .5;
 }
 #news-container a:visited  {
     color: purple;
@@ -416,7 +415,7 @@ button {
 #event-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: baseline;
     height: 100%;
     position: relative;
 
@@ -427,16 +426,27 @@ button {
     object-fit: cover;
     
 }
-
-.event-btn {
+.event-overlay {
     position: absolute;
-    margin-bottom: 17vw;
-    font-weight: 700;
-    transition: all 0.5s ease;
-    font-size: 1.2rem;
+    left: 0;
+    top: 0;
     text-align: center;
-    width: 40%;
+    line-height: 1.5;
+    width: 100%;
+    height: 100%;
+    padding: 18px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+    background-image: linear-gradient(rgba(0, 54, 73, 0.5),rgba(0, 54, 73, 0.5));
+    font-size: 5.7vw;
 }
+.event-overlay h2 {
+    color: #03e2ff;
+    text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+}
+
 
 
 #weather-container {
@@ -482,7 +492,7 @@ button {
 }
 .credits:hover {
     transform: scale(1.1);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 
@@ -516,7 +526,6 @@ button {
     transition: all 0.5s ease;
 }
 .discover-hero-title {
-    font-size: 1.3rem;
     padding: 0px 16px;
     margin: 0 0 24px;
     grid-column: 1/span 4;
@@ -528,7 +537,6 @@ button {
 .discover-hero-title h1 {
     font-family: var(--heading-font);
     font-weight: 700;
-    font-size: 2rem;
 }
 .discover-media {
     width: 100%;
@@ -692,20 +700,18 @@ form label.uplarge textarea {
 
 
 form input.submitBtn {
-    margin: 0 0 2rem 2%;
+    margin: 0 0 4rem 2%;
     padding: .75rem 1.5rem;
     background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ACB6E5, #74ebd5);
     border-radius: 5px;
     font-weight: 700;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     width: 96%;
     max-width: 20rem;
 }
 form input.submitBtn:hover {
-    background:#aec5f1;
     transition: all 0.2s ease;
+    background:#aec5f1;
     transform: scale(1.1);
 }
 input[type='radio'] { 
@@ -779,23 +785,35 @@ tbody tr:nth-child(even) {
 
 .conContainer1 h2 {
     font-size: 1.5rem;
-    margin: 30px auto;
+    margin: 10px 0 10px 0;
 }
 .conContainer1 h3 {
     font-size: 1.2rem;
-    margin: 15px auto;
+    margin: 15px 0;
 }
 .contactmain {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 0 10% 100px 5%;
+    margin: 0 2% 100px 5%;
 }
 .contactmain > * {
     transition: all 0.5s ease;
 }
 .conContainer1 {
-    margin-left: 15%
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-bottom: 25px;
+
+}
+.contactemail {
+    margin-bottom: 15px;
+}
+.minimap  {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-left: 10%;
 }
 .thanksdisplay {
     position: absolute;
@@ -815,7 +833,7 @@ tbody tr:nth-child(even) {
     line-height: 1.5;
 }
 .homeLink {
-    color: rgb(82, 82, 196);
+    color: blue;
     text-decoration: none;
     font-size: inherit;
     transition: all 0.5s ease;
@@ -854,15 +872,16 @@ tbody tr:nth-child(even) {
 .DItems a {
     color: blue;
     text-decoration: none;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
-.DItems a:hover {
-    color: red;
-    transition: all 0.5s ease;
+
+.list .DItems a:hover {
+    color: #086100;
+    transition: all 0.3s ease;
+    transform: scale(1.01);
+
 }
-.DItems a:visited {
-    color: purple;
-}
+
 .DItems > * {
     margin: 5px 0;
 }
@@ -874,7 +893,11 @@ tbody tr:nth-child(even) {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin: 20px;
-    
+}
+.grid .DItems a:hover {
+    color: #086100;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
 }
 .grid div{
     background-color: var(--primary-color);
@@ -898,7 +921,7 @@ tbody tr:nth-child(even) {
 .list div {
     display: flex;
     flex-direction: column;
-    padding: 30px 15px 30px 10vw;
+    padding: 30px 10vw;
 }
 
 .list img {
@@ -940,6 +963,7 @@ footer {
     text-decoration: none;
     display: block;
     transition: all 0.5s ease;
+    color: blue;
 }
 .mapLink:hover {
     transition: all 0.5s ease;
