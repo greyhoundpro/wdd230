@@ -16,9 +16,9 @@
     
 }
 
-body {
+/* body {
     min-width: 337px;
-}
+} */
 
 header {
     position: sticky;
@@ -978,6 +978,13 @@ hr {
 
 footer .name {
     font-weight: 700;
+}
+
+@media screen and (max-width: 353px) {
+    .logo {
+        padding-left: 0;
+        width: 175px;
+    }
 }
 
 
