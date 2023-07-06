@@ -35,9 +35,38 @@
 
     /* ------------MAIN------------- */
 
+
+    .contactus-container, .weather-container {
+        width: 95%;
+        margin: 0 auto;
     
+    }
+    .contact-container picture {
+        display: none;
+    }
+    .contact-container {
+        justify-content: space-evenly;
+    }
 
-
-
+    .invite-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .invite-organic {
+        grid-column:1/2;
+        grid-row: 1/2;
+        height: 500px;
+    }
+    .invite-photo {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 500px;
+    }
+    .invite-photo img  {
+        object-fit:cover;
+        height: 100%;
+    }
 
 }

@@ -29,5 +29,46 @@
 
     /* -------------MAIN-------------- */
 
+    .hero-container {
+        max-height: 700px;
+    }
+    .hero-contents {
+        max-width: 52%;
+        text-align: left;
+    }
+    .contact-container {
+        height: auto;
+    }
+    .contact-container picture {
+        display: block;
+    }
+
+    #aboutus {
+        flex-direction: row; 
+    }
+    #aboutus div {
+        max-height: 400px;
+    }
+    .contactus-container, .weather-container {
+        margin: 5%;
+        height: 80%;
+        min-height: 80%;
+    }
+    .invite-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .invite-organic {
+        height: auto;
+    }
+    .invite-photo {
+        height: auto;
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row;
+    }
+    .invite-photo img {
+        height: 200px;
+    }
     
 }
