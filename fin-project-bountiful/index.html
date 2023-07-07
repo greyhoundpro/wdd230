@@ -62,7 +62,7 @@
                 <source media="(max-width: 600px)" srcset="images/hero-0px.jpg">
                 <source media="(max-width: 900px)" srcset="images/hero-600px.jpg">
                 <source media="(min-width: 901px)" srcset="images/hero-900px.jpg">
-                <img class="background-img" src="images/hero-900px.jpg" alt="image of different kinds of fruits">
+                <img class="background-img" src="images/hero-900px.jpg" alt="various fruits are arranged on a white surface">
             </picture>
             <div class="overlay">
                 <div class="hero-contents">
@@ -76,7 +76,7 @@
             <picture>
                 <source media="(max-width: 1007px)" srcset="images/portrait-about-us-background.jpg">
                 
-                <img class="background-img" src="images/lemons-900px.jpg" alt="image of lemons with whitespace background">
+                <img class="background-img" src="images/lemons-900px.jpg" alt="sliced lemons on a white marble background">
             </picture>
             <div class="overlay" id="aboutus">
                 <div class="contactus-container">
@@ -101,20 +101,21 @@
                         <h3 id="temperature">#</h3>
                         <p id="wDescription">Cloudy(sample)</p>
                         <h4 id="humidity">#</h4>
+                        <h5>Humidity</h5>
                     </div>
                     <h3>3-day Temperature Forecast</h3>
                     <div class="three-day">
                         <div class="fc-container">
                             <p id="dayOfWeek"></p>
-                            <h4 id="temp1"></h4>
+                            <h4 id="temp1">#</h4>
                         </div>
                         <div class="fc-container">
                             <p id="dayOfWeek"></p>
-                            <h4 id="temp2"></h4>
+                            <h4 id="temp2">#</h4>
                         </div>
                         <div class="fc-container">
                             <p id="dayOfWeek"></p>
-                            <h4 id="temp3"></h4>
+                            <h4 id="temp3">#</h4>
                         </div>
                     </div>
                 </div>
@@ -129,6 +130,7 @@
                 <p class="title-para"><strong>Create your own Mix!</strong></p> 
                 </p>
                 <a class="button" href="#">Make Your Drink</a>
+                <p class="small-para">Total number of <br>Specialty Drinks you ordered:</p><p id="drinkNumber">#</p>
             </div>
             <div class="invite-photo">
                 <img src="images/blueberry.jpg" alt="blueberry juice">
@@ -157,7 +159,51 @@
         </div>
     </main>
     <footer>
-
+        <div class="footer-container">
+            <a href="index.html"><img src="images/bountiful-logo.png" alt="logo of Bountiful Foods company" class="logo"></a>
+            <div class="footer-links-container">
+                <div class="footer_links1">
+                    <h2>Contact Us</h2>
+                    <div class="address">
+                        <span>📍</span><p> 5171 Shore Dr, <br>Carlsbad, CA 92008 USA</p>
+                    </div>
+                    <div class="phone">
+                        <span>📞</span><p>(442) 438-7611</p>
+                    </div>
+                    <div class="email">
+                        <span>✉️</span><p>info@bountifulfoods.com</p>
+                    </div>
+                </div>
+                <div class="footer_links2">
+                    <h2>Links</h2>
+                    <a href="index.html">Home</a>
+                    <a href="fresh.html">Fresh</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; Bountiful Foods 2023</p>
+            <p>Jayvee Galosmo | WDD 230</p>
+            <ul class="social_menu">
+                <li class="social_items">
+                    <a target="_blank" class="social_links" href="https://www.facebook.com/">
+                        <img src="images/footer-facebook.svg" alt="facebook-icon">
+                    </a>
+                </li>
+                <li class="social_items">
+                    <a target="_blank" class="social_links" href="https://www.linkedin.com/">
+                        <img src="images/footer-linkedin.svg" alt="linkedin-icon">
+                    </a>
+                </li>
+                <li class="social_items">
+                    <a target="_blank" class="social_links" href="https://www.instagram.com/">
+                        <img src="images/footer-instagram.svg" alt="instagram-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
     <script src="scripts/script.js"></script>
 </body>

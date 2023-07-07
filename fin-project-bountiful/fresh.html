@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh page of Bountiful Foods helps you customize your own drink by mixing your favorite fruits
+    into a specialty drink">
+    <title>Fresh | Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="index.html"><img src="images/bountiful-logo.png" alt="logo of Bountiful Foods company" class="logo"></a>
+                <div class="navbar_toggle" id="mobile_menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="index.html" class="navbar_links">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="fresh.html" class="navbar_links">Fresh</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="about.html" class="navbar_links">About Us</a>
+                    </li>
+                </ul>
+                <ul class="social_menu">
+                    <li class="social_items">
+                        <a target="_blank" class="social_links" href="https://www.facebook.com/">
+                            <img src="images/icons8-facebook.svg" alt="facebook-icon">
+                        </a>
+                    </li>
+                    <li class="social_items">
+                        <a target="_blank" class="social_links" href="https://www.linkedin.com/">
+                            <img src="images/icons8-linkedin.svg" alt="linkedin-icon">
+                        </a>
+                    </li>
+                    <li class="social_items">
+                        <a target="_blank" class="social_links" href="https://www.instagram.com/">
+                            <img src="images/icons8-instagram.svg" alt="instagram-icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="freshmain">
+        <div class="fresh-container">
+            <div class="fresh-overlay">
+                <div class="fresh-contents">
+                    <h1 class="hero-title">Make your own drink</h1>
+                    <p class="title-para-larger">Please fill-up the form below:</p>
+                    <form action="">
+                        <fieldset>
+                            <legend>Order Form</legend>
+                            <label class="up" for="fname">First Name*<input id="fname" type="text" name="fname" required></label>
+                            <label class="up" for="email">Email*<input type="email" name="email" id="email" required placeholder="someone@example.com"></label>
+                            <label class="up" for="phone">Phone #*<input type="tel" name="phone" id="phone" required placeholder="123455789"> </label>
+                            <label class="uplarge">Your Message<textarea name="bdesc"></textarea></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Fruit Mix</legend>
+                            <p>You may choose to have 1 or 2 fruit choices to be mixed. Not necessary to fill all 3.</p>
+                            <p class="thin-title">Fruit 1</p>
+                            <select name="fruitschoice" id="fruitschoice"></select>
+                            <p class="thin-title">Fruit 2</p>
+                            <select name="fruitschoice" id="fruitschoice"></select>
+                            <p class="thin-title">Fruit 3</p>
+                            <select name="fruitschoice" id="fruitschoice"></select>
+                        </fieldset>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p>Submit na ba?</p>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <a href="index.html"><img src="images/bountiful-logo.png" alt="logo of Bountiful Foods company" class="logo"></a>
+            <div class="footer-links-container">
+                <div class="footer_links1">
+                    <h2>Contact Us</h2>
+                    <div class="address">
+                        <span>📍</span><p> 5171 Shore Dr, <br>Carlsbad, CA 92008 USA</p>
+                    </div>
+                    <div class="phone">
+                        <span>📞</span><p>(442) 438-7611</p>
+                    </div>
+                    <div class="email">
+                        <span>✉️</span><p>info@bountifulfoods.com</p>
+                    </div>
+                </div>
+                <div class="footer_links2">
+                    <h2>Links</h2>
+                    <a href="index.html">Home</a>
+                    <a href="fresh.html">Fresh</a>
+                    <a href="about.html">About Us</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>&copy; Bountiful Foods 2023</p>
+            <p>Jayvee Galosmo | WDD 230</p>
+            <ul class="social_menu">
+                <li class="social_items">
+                    <a target="_blank" class="social_links" href="https://www.facebook.com/">
+                        <img src="images/footer-facebook.svg" alt="facebook-icon">
+                    </a>
+                </li>
+                <li class="social_items">
+                    <a target="_blank" class="social_links" href="https://www.linkedin.com/">
+                        <img src="images/footer-linkedin.svg" alt="linkedin-icon">
+                    </a>
+                </li>
+                <li class="social_items">
+                    <a target="_blank" class="social_links" href="https://www.instagram.com/">
+                        <img src="images/footer-instagram.svg" alt="instagram-icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
