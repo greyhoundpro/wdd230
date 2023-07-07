@@ -313,7 +313,9 @@ p {
 .invite-organic {
     height: 100%;
     padding: 15px;
-
+}
+.invite-organic p {
+    max-width: 500px;
 }
 .invite-container h1 {
     padding-top: 20px;
@@ -335,13 +337,45 @@ p {
     margin: 0 auto;
 }
 .carlsbad {
-    background-color: var(--bg-color);
+    margin-top: 30px;
+    background-color: #fff;
     padding: 2%;
+    width: 92%;
 }
-
+.carlsbad-img-container {
+    width: 98%;
+    margin-left: 3%;
+    z-index: 2;
+}
 .carlsbad img {
     width: 100%;
     height: auto;
+    z-index: -2;
+    object-fit: cover;
+    max-height: 500px;
+    max-width: 1200px;
+    justify-self: center;
+}
+.carlsbad h1 {
+    padding-left: 10px;
+}
+.carlsbad-info-container {
+    position: relative;
+    margin-top: -3em;
+    padding: 1em 6vw;
+    z-index: 3;
+    background-color: #f5f2ef;
+    margin-right: 3%;
+    
+    
+}
+.carlsbad-info > * {
+    margin-top: 30px;
+}
+.carlsbad-info {
+    width: 93%;
+    padding: 0.5em 0;
+    line-height: 1.5;
 }
 
 
