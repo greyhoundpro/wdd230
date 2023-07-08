@@ -20,3 +20,14 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+// Date Last Modified 
+
+const d = new Date();
+const year = d.getFullYear();
+
+const options = {month: 'long', day: 'numeric', year: 'numeric'};
+const options1 = {weekday: 'long', day: 'numeric', month: 'long',  year: 'numeric'};
+const date = new Date(document.lastModified);
+const currentDate = new Date();
+document.querySelector('#modified-date').textContent = date.toLocaleDateString('en-US', options);

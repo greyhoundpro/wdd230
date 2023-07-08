@@ -68,7 +68,7 @@
                 <div class="hero-contents">
                     <h1 class="hero-title">Organic Fruit Drinks<br> and Produce</h1>
                     <p class="title-para-larger">100%  Affordable and Healthy</p>
-                    <a class="button hero-btn" href="#">Make Your Drink</a>
+                    <a class="button hero-btn" href="fresh.html">Make Your Drink</a>
                 </div>
             </div>
         </div>
@@ -98,23 +98,26 @@
                     <h1 class="hero-title">Weather in</h1>
                     <h1 class="thin-title">Carlsbad</h1>  
                     <div class="weather-info">
-                        <h3 id="temperature">#</h3>
-                        <p id="wDescription">Cloudy(sample)</p>
-                        <h4 id="humidity">#</h4>
-                        <h5>Humidity</h5>
+                        <h3>Temperature</h3>
+                        <h2 id="temperature">#</h2>
+                        <p class="title-para-thin" id="wDescription"></p>
+                        <hr class="weatherHR">
+                        <h3>Humidity</h3>
+                        <h2 id="humidity">#</h2>
                     </div>
+                    <hr class="weatherHR">
                     <h3>3-day Temperature Forecast</h3>
                     <div class="three-day">
                         <div class="fc-container">
-                            <p id="dayOfWeek"></p>
+                            <p id="dayOfWeek1"></p>
                             <h4 id="temp1">#</h4>
                         </div>
                         <div class="fc-container">
-                            <p id="dayOfWeek"></p>
+                            <p id="dayOfWeek2"></p>
                             <h4 id="temp2">#</h4>
                         </div>
                         <div class="fc-container">
-                            <p id="dayOfWeek"></p>
+                            <p id="dayOfWeek3"></p>
                             <h4 id="temp3">#</h4>
                         </div>
                     </div>
@@ -129,7 +132,7 @@
                     Our freshly made fruit drinks can be customized based on your taste and nutrition needs. <br>
                 <p class="title-para"><strong>Create your own Mix!</strong></p> 
                 </p>
-                <a class="button" href="#">Make Your Drink</a>
+                <a class="button" href="fresh.html">Make Your Drink</a>
                 <p class="small-para">Total number of <br>Specialty Drinks you ordered:</p><p id="drinkNumber">#</p>
             </div>
             <div class="invite-photo">
@@ -204,7 +207,9 @@
                 </li>
             </ul>
         </div>
+        <p class="modified">Last updated: <span id="modified-date"></span>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>

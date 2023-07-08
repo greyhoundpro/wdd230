@@ -44,6 +44,12 @@ p {
     text-transform: uppercase;
     font-weight: 600;
 }
+.title-para-thin {
+    font-family: var(--header-font);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 .thin-title {
     font-weight: 400;
 }
@@ -215,7 +221,6 @@ p {
     display: flex;
 }
 .hero-contents {
-    /* max-width: 52%; for large css */
     text-align: center;
     width: 100%;
     padding: 10px;
@@ -254,12 +259,15 @@ p {
     flex-direction: column;
     height: auto;
     width: 98%;
-    margin: 20px auto;
+    padding: 20px auto;
     gap: 20px;
 }
 .weather-container h1, 
 .contactus-container h1 {
     font-size: 35px;
+}
+.weatherHR {
+    margin: 10px auto;
 }
 
 .contact-container {
@@ -408,8 +416,7 @@ p {
 }
 
 .fresh-contents {
-    margin-top: 30px;
-    margin-left: 5%;
+    margin: 30px auto;
 }
 .freshmain picture {
     position: sticky;
@@ -462,7 +469,7 @@ form label.up input, select{
     border-radius: 5px;
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
     font-size: 1rem;
-    border: 2px #fff;
+    border: 2px #131313;
     width: 100%;
     max-width: 18rem;
 }
@@ -478,7 +485,7 @@ form label.uplarge textarea {
     padding: .75rem;
     border-radius: 5px;
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-    border: 2px #fff;
+    border: 2px #131313;
     width: 100%;
     max-width: 18rem;
     height: 12rem;
@@ -489,6 +496,71 @@ form label.up input:required {
 }
 form label.up input:required:valid {
     border-bottom: 3px solid rgb(48, 218, 48);
+}
+select {
+    font-family: var(--para-font);
+}
+
+/* ----------ABOUT US------------ */
+
+.aboutmain::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image:  url(/wdd230/fin-project-bountiful/images/watermelon-white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.about-contents  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 3%;
+    gap: 50px;
+}
+.about-title {
+    margin: 20px 10%;
+}
+.about-par {
+    max-width: 360px;
+}
+.about-par p {
+    line-height: 1.5;
+    color: #131313;
+}
+.about-par img {
+    max-width: 460px;
+    margin-top: 25px;
+    box-shadow: 3px 3px 7px var(--footer-color);
+    transition: all 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+.about-par img:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.021);
+}
+.about-contactinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 3%;
+    justify-content: center;
+    align-items:start;
+    text-align: center;
+}
+.about-contactinfo iframe {
+    padding-right: 3%;
+}
+.about-contact {
+    margin-bottom: 100px;
 }
 
 
@@ -516,6 +588,7 @@ footer {
     flex-direction: column;
     max-width: 1100px;
     align-items: center;
+    margin: 0 auto;
     
 }
 
@@ -565,6 +638,7 @@ footer {
     padding: 16px 0;
     line-height: 1.5;
     max-width: 1100px;
+    margin: 0 auto;
     
 }
 .copyright .social_menu {
@@ -576,5 +650,12 @@ footer {
 }
 hr {
     width: 100%;
-
 }
+.modified {
+    text-align: center;
+}
+#wDescription::first-letter {
+    text-transform: uppercase;
+}
+
+

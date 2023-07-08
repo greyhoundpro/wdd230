@@ -47,7 +47,7 @@
         flex-direction: row; 
     }
     #aboutus div {
-        max-height: 400px;
+        max-height: 500px;
     }
     .contactus-container, .weather-container {
         margin: 5%;

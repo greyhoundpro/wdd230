@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fresh page of Bountiful Foods helps you customize your own drink by mixing your favorite fruits
-    into a specialty drink">
-    <title>Fresh | Bountiful Foods</title>
+    <meta name="description" content="Learn more about Bountiful Foods and the team behind the scenes and how to contact us.">
+    <title>About Us | Bountiful Foods</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -14,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
+</head>
 </head>
 <body>
     <header>
@@ -56,42 +56,40 @@
             </div>
         </nav>
     </header>
-    <main class="freshmain">
-        <div class="fresh-container">
-            <div class="fresh-overlay">
-                <div class="fresh-contents">
-                    <h1 class="hero-title">Make your own drink</h1>
-                    <p class="title-para-larger">Please fill-up the form below:</p>
-                    <form action="">
-                        <fieldset>
-                            <legend>Order Form</legend>
-                            <label class="up" for="fname">First Name*<input id="fname" type="text" name="fname" required></label>
-                            <label class="up" for="email">Email*<input type="email" name="email" id="email" required placeholder="someone@example.com"></label>
-                            <label class="up" for="phone">Phone #*<input type="tel" name="phone" id="phone" required placeholder="123455789"> </label>
-                            <label class="uplarge">Your Message<textarea name="bdesc"></textarea></label>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Fruit Mix</legend>
-                            <p>You may choose to have 1 or 2 fruit choices to be mixed. Not necessary to fill all 3.</p>
-                            <p class="thin-title">Fruit 1</p>
-                            <select name="fruitschoice" id="fruitschoice">
-                                <option disable selected value>Please Select an Option</option>
-                            </select>
-                            <p class="thin-title">Fruit 2</p>
-                            <select name="fruitschoice" id="fruitschoice">
-                                <option disable selected value>Please Select an Option</option>
-                            </select>
-                            <p class="thin-title">Fruit 3</p>
-                            <select name="fruitschoice" id="fruitschoice">
-                                <option disable selected value>Please Select an Option</option>
-                            </select>
-                        </fieldset>
-
-                    </form>
+    <main class="aboutmain">
+        <div class="about-contents">
+            <div class="about-title">
+                <h1>About Us</h1>
+            </div>
+            <div class="about-par">
+                <h2>Our History</h2>
+                <p>We started as a small team of farmers with big ideas in a town where we grow a lot of 
+                    organic and locally-grown fruits. We first established our reputation in a fruit stand along 
+                    Carlsbad Beachside by providing freshly made fruit drinks and fruit bags to tourist and to the local 
+                    population. As we become successful in our venture, we began to utilize the use of food trucks to cater 
+                    to more people along South California Beach cities.
+                </p>
+                <img src="images/fruit-slices.jpg" alt="several jars filled with fruit sitting on top of a wooden table">
+            </div>
+            <div class="about-contact">
+                <h2>Contact Us</h2>
+                <h3>We are located at</h3>
+                <div class="about-contactinfo">
+                    <div class="address">
+                        <span>📍</span><p> 5171 Shore Dr, <br>Carlsbad, CA 92008 USA</p>
+                    </div>
+                    <div class="phone">
+                        <span>📞</span><p>(442) 438-7611</p>
+                    </div>
+                    <div class="email">
+                        <span>✉️</span><p>info@bountifulfoods.com</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.1790614157626!2d-117.33801888910452!3d33.13066006571948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc72f508f133cf%3A0x35e043578f88046!2s5171%20Shore%20Dr%2C%20Carlsbad%2C%20CA%2092008%2C%20USA!5e0!3m2!1sen!2sph!4v1688822288646!5m2!1sen!2sph" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
-        <p>Submit na ba?</p>
+        </div>
+        
     </main>
     <footer>
         <div class="footer-container">
@@ -139,7 +137,7 @@
                 </li>
             </ul>
         </div>
-        <p class="modified">Last updated: <span id="modified-date"></span></p>
+        <p class="modified">Last updated: <span id="modified-date"></span>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
