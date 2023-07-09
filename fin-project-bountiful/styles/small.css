@@ -215,6 +215,9 @@ p {
     justify-content: center;
     align-items: center;
 }
+.carlsbad img[data-src], .invite-photo img[data-src] {
+    filter: blur(0.2em);
+}
 .fresh-overlay {
     width: 100%;
     height: 100%;
@@ -259,7 +262,6 @@ p {
     flex-direction: column;
     height: auto;
     width: 98%;
-    padding: 20px auto;
     gap: 20px;
 }
 .weather-container h1, 
@@ -271,8 +273,9 @@ p {
 }
 
 .contact-container {
-    height: 820px;
+    height: 920px;
     background: #fff;
+    margin: 20px;
 }
 .contact-container picture {
     display: none;
@@ -417,6 +420,7 @@ p {
 
 .fresh-contents {
     margin: 30px auto;
+    padding: 4%;
 }
 .freshmain picture {
     position: sticky;
@@ -520,9 +524,10 @@ select {
 .about-contents  {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 3%;
     gap: 50px;
+
 }
 .about-title {
     margin: 20px 10%;
@@ -533,6 +538,9 @@ select {
 .about-par p {
     line-height: 1.5;
     color: #131313;
+    background-color: var(--bg-color);
+    padding: 12px;
+    
 }
 .about-par img {
     max-width: 460px;

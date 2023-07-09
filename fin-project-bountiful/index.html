@@ -99,11 +99,11 @@
                     <h1 class="thin-title">Carlsbad</h1>  
                     <div class="weather-info">
                         <h3>Temperature</h3>
-                        <h2 id="temperature">#</h2>
+                        <h1 id="temperature">#</h1>
                         <p class="title-para-thin" id="wDescription"></p>
                         <hr class="weatherHR">
                         <h3>Humidity</h3>
-                        <h2 id="humidity">#</h2>
+                        <h1 id="humidity">#</h1>
                     </div>
                     <hr class="weatherHR">
                     <h3>3-day Temperature Forecast</h3>
@@ -136,16 +136,16 @@
                 <p class="small-para">Total number of <br>Specialty Drinks you ordered:</p><p id="drinkNumber">#</p>
             </div>
             <div class="invite-photo">
-                <img src="images/blueberry.jpg" alt="blueberry juice">
-                <img src="images/avocados.jpg" alt="avocados">
-                <img src="images/dragonfruit.jpg" alt="dragonfruit">
-                <img src="images/rsz_mango-shake-5sq.jpg" alt="assorted lime fruits">
+                <img src="images/placeholder-1blueberry.jpg" data-src="images/blueberry.jpg" alt="blueberry juice">
+                <img src="images/placeholder-avocados.jpg" data-src="images/avocados.jpg" alt="avocados">
+                <img src="images/placeholder-dragonfruit.jpg" data-src="images/dragonfruit.jpg" alt="dragonfruit">
+                <img src="images/placeholder-mango-shake-5sq.jpg" data-src="images/rsz_mango-shake-5sq.jpg" alt="assorted lime fruits">
             </div>
         </div>
         <div class="carlsbad">
             <h1 class="hero-title">Carlsbad, California</h1>
             <div class="carlsbad-img-container">
-                <img src="images/rsz_carlsbad.jpg" alt="aerial view of Carlsbad California">
+                <img src="images/placeholder-carlsbad.jpg" data-src="images/rsz_carlsbad.jpg" alt="aerial view of Carlsbad California">
             </div>
             <div class="carlsbad-info-container">
                 <div class="carlsbad-info">
@@ -209,6 +209,7 @@
         </div>
         <p class="modified">Last updated: <span id="modified-date"></span>
     </footer>
+    <script src="scripts/lazyload.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/script.js"></script>
 </body>
