@@ -491,7 +491,7 @@ form label.uplarge textarea {
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
     border: 2px #131313;
     width: 100%;
-    max-width: 18rem;
+    max-width: 22rem;
     height: 12rem;
     line-height: 1.5;
 }
