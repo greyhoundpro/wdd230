@@ -38,6 +38,7 @@
     }
     .contact-container {
         height: auto;
+        margin: 0;
     }
     .contact-container picture {
         display: block;

@@ -338,7 +338,8 @@ p {
 }
 .invite-organic {
     height: 100%;
-    padding: 25px;
+    padding: 0 25px;
+    margin-bottom: 20px;
 }
 
 .invite-organic p {
@@ -538,12 +539,22 @@ form input.submitBtn:hover {
 }
 .orderOutput p {
     font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 .orderOutput span {
     font-weight: 400;
+    max-width: 305px;
+    word-wrap: break-word;
 }
 .orderOutput h3 {
     margin-top: 20px;
+}
+.reminder {
+    margin-top: 20px;
+    color: #131313;
 }
 
 /* ----------ABOUT US------------ */

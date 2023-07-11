@@ -21,7 +21,12 @@ const email = document.querySelector('#email');
 const phone = document.querySelector('#phone');
 const instruct = document.querySelector('#instructions');
 const freshcontents = document.querySelector('#freshcontents');
+
 let orderSubmitClick = localStorage.getItem('orderSubmit');
+if(!orderSubmitClick) {
+    orderSubmitClick = 0;
+    localStorage.setItem('orderSubmit', orderSubmitClick);
+}
 
 
 
@@ -48,14 +53,18 @@ const displayFruit = (fruits) => {
         choice.textContent = `${data.name}`;
         select3.appendChild(choice);
     })
-    const orderForm = document.querySelector('#orderForm');
 
+   
+    const orderForm = document.querySelector('#orderForm');
+    let outputSubmitted = false
     orderForm.addEventListener('submit', function (event) {
-        if (orderSubmitClick == 0) {
-            orderSubmitClick++;
-            localStorage.setItem('orderSubmit', orderSubmitClick);
-        }
         
+        if  (outputSubmitted) {
+            return;
+        
+        }
+        orderSubmitClick++;
+        localStorage.setItem('orderSubmit', orderSubmitClick);
         event.preventDefault();
         const fruit1 = select1.value;
         const fruit2 = select2.value;
@@ -154,15 +163,15 @@ const displayFruit = (fruits) => {
         dateSpan.textContent = `${orderDate}`;
         totalNutritions.textContent = `Total Nutritions: `;
         carbohydrates.textContent = `Total carbohydrates: `;
-        carbohydratesSpan.textContent = `${totalCarbs}`;
+        carbohydratesSpan.textContent = `${totalCarbs.toFixed(2)}`;
         protein.textContent = `Total protein: `;
-        proteinSpan.textContent = `${totalProtein}`;
+        proteinSpan.textContent = `${totalProtein.toFixed(2)}`;
         fat.textContent = `Total fat: `;
         fatSpan.textContent = `${totalFat.toFixed(2)}`;
         calories.textContent = `Total calories: `;
-        caloriesSpan.textContent = `${totalCalories}`;
+        caloriesSpan.textContent = `${totalCalories.toFixed(2)}`;
         sugar.textContent = `Total sugar: `;
-        sugarSpan.textContent = `${totalSugar}`;
+        sugarSpan.textContent = `${totalSugar.toFixed(2)}`;
 
         fname.appendChild(fnameSpan);
         cxemail.appendChild(cxemailSpan);
@@ -196,6 +205,8 @@ const displayFruit = (fruits) => {
         output.appendChild(calories);
     
         freshcontents.appendChild(output);
+        orderForm.reset();
+        outputSubmitted = true;
     });
     
 };

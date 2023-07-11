@@ -33,19 +33,4 @@ const currentDate = new Date();
 document.querySelector('#modified-date').textContent = date.toLocaleDateString('en-US', options);
 
 
-// For Number of orders
-
-
-
-
-const orderSubmitNumber = document.querySelector('#drinkNumber');
-
-
-if (!localStorage.getItem('orderSubmit')) {
-    orderSubmitClick = 0;
-    localStorage.setItem('orderSubmit', orderSubmitClick)
-}
-else {
-    orderSubmitNumber.textContent = localStorage.getItem('orderSubmit');
-}
 

@@ -80,3 +80,20 @@ function daysOfWeek(day1, daysarray) {
         daysarray[i] = week[(day.getDay() + 1 + i) % 7];
     }
 }
+
+
+// For Number of orders
+
+
+
+
+const orderSubmitNumber = document.querySelector('#drinkNumber');
+
+
+if (!localStorage.getItem('orderSubmit')) {
+    orderSubmitClick = 0;
+    localStorage.setItem('orderSubmit', orderSubmitClick)
+}
+else {
+    orderSubmitNumber.textContent = localStorage.getItem('orderSubmit');
+}
