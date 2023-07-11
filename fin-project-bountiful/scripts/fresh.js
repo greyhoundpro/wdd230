@@ -3,7 +3,6 @@ const fruiturl  = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 async function getFruitData() {
     const response = await fetch(fruiturl);
     const data = await response.json();
-    console.log(data);
     displayFruit(data);
 
 }
