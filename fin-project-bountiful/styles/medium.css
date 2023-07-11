@@ -47,6 +47,7 @@
     }
     .contact-container {
         justify-content: space-evenly;
+        height: 900px;
     }
 
     .invite-container {

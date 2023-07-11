@@ -203,7 +203,7 @@ p {
     width: 100%;
     min-height: 600px;
 }
-.overlay {
+.hero-overlay {
     position: absolute;
     z-index: 2;
     top: 0;
@@ -261,7 +261,7 @@ p {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 98%;
+    width: 100%;
     gap: 20px;
 }
 .weather-container h1, 
@@ -273,9 +273,8 @@ p {
 }
 
 .contact-container {
-    height: 920px;
     background: #fff;
-    margin: 20px;
+    margin: 20px auto;
 }
 .contact-container picture {
     display: none;
