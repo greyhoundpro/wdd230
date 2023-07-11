@@ -19,7 +19,7 @@
 html {
     min-width: 320px;
 }
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, input[type="submit"] {
     font-family: var(--header-font);
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -421,6 +421,7 @@ p {
 .fresh-contents {
     margin: 30px auto;
     padding: 4%;
+    max-width: 660px;
 }
 .freshmain picture {
     position: sticky;
@@ -473,17 +474,19 @@ form label.up input, select{
     border-radius: 5px;
     box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
     font-size: 1rem;
-    border: 2px #131313;
+    border: 1px ridge var(--footer-color);
     width: 100%;
     max-width: 18rem;
 }
 form select {
-    margin-top: 10px;
+    margin: 20px 0;
     padding-right: 30px;
     appearance: none;
     background: url(/wdd230/fin-project-bountiful/images/icons8-expand-arrow-48.png) no-repeat center right 5px ;
     background-size: 20px 20px;
+    background-color: #fff;
 }
+
 form label.uplarge textarea {
     display: block;
     padding: .75rem;
@@ -503,6 +506,44 @@ form label.up input:required:valid {
 }
 select {
     font-family: var(--para-font);
+}
+
+form input.submitBtn {
+    padding: 20px 50px;
+    background: var(--pri-color);
+    color: white;
+    border-radius: 4px;
+    border:none;
+    text-decoration: none;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 4%;
+    box-shadow: 3px 3px 8px grey;
+    transition: all 0.3s ease;
+}
+form input.submitBtn:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+.orderOutput {
+    margin-top:30px;
+    line-height: 1.5;
+    color: #131313;
+    background-color: var(--bg-color);
+    padding: 20px;
+}
+.orderOutput p {
+    font-weight: 600;
+}
+.orderOutput span {
+    font-weight: 400;
+}
+.orderOutput h3 {
+    margin-top: 20px;
 }
 
 /* ----------ABOUT US------------ */

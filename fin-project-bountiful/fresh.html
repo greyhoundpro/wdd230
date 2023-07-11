@@ -59,10 +59,10 @@
     <main class="freshmain">
         <div class="fresh-container">
             <div class="fresh-overlay">
-                <div class="fresh-contents">
+                <div class="fresh-contents" id="freshcontents">
                     <h1 class="hero-title">Make your own drink</h1>
                     <p class="title-para-larger">Please fill-up the form below:</p>
-                    <form action="">
+                    <form id="orderForm" method="get">
                         <fieldset>
                             <legend>Order Form</legend>
                             <label class="up" for="fname">First Name*<input id="fname" type="text" name="fname" required></label>
@@ -72,22 +72,25 @@
                         <fieldset>
                             <legend>Fruit Mix</legend>
                             <p>You may choose to have 1 or 2 fruit choices to be mixed. Not necessary to fill all 3.</p>
-                            <p class="thin-title">Fruit 1</p>
-                            <select name="fruitschoice" id="fruitschoice">
-                                <option disable selected value>Please Select an Option</option>
-                            </select>
-                            <p class="thin-title">Fruit 2</p>
-                            <select name="fruitschoice" id="fruitschoice">
-                                <option disable selected value>Please Select an Option</option>
-                            </select>
-                            <p class="thin-title">Fruit 3</p>
-                            <select name="fruitschoice" id="fruitschoice">
-                                <option disable selected value>Please Select an Option</option>
-                            </select>
-                            <label class="uplarge">Special Instructions with order: (optional)<textarea name="bdesc"></textarea></label>
+                            <label class="up">Fruit 1
+                            <select name="fruitschoice" id="fruitschoice1" required>
+                                <option disabled selected value> -- Select Fruit -- </option>
+                            </select></label>
+                            <label class="up">Fruit 2
+                            <select name="fruitschoice" id="fruitschoice2">
+                                <option disabled selected value>-- Select Fruit -- </option>
+                            </select></label>
+                            <label class="up">Fruit 3
+                            <select name="fruitschoice" id="fruitschoice3">
+                                <option disabled selected value>-- Select Fruit -- </option>
+                            </select></label>
+                            <label class="uplarge">Special Instructions with order: (optional)<textarea name="bdesc" id="instructions"></textarea></label>
                         </fieldset>
+                        <input type="submit" class="submitBtn" value="Submit the Order">
                     </form>
+                    
                 </div>
+
             </div>
         </div>
     </main>

@@ -31,3 +31,21 @@ const options1 = {weekday: 'long', day: 'numeric', month: 'long',  year: 'numeri
 const date = new Date(document.lastModified);
 const currentDate = new Date();
 document.querySelector('#modified-date').textContent = date.toLocaleDateString('en-US', options);
+
+
+// For Number of orders
+
+
+
+
+const orderSubmitNumber = document.querySelector('#drinkNumber');
+
+
+if (!localStorage.getItem('orderSubmit')) {
+    orderSubmitClick = 0;
+    localStorage.setItem('orderSubmit', orderSubmitClick)
+}
+else {
+    orderSubmitNumber.textContent = localStorage.getItem('orderSubmit');
+}
+
