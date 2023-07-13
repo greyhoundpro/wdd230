@@ -116,7 +116,8 @@
     .footer-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly flex-start;
+        justify-content: space-evenly;
+        justify-content: flex-start;
         width: 100%;
     }
     .footer-container .logo {

@@ -16,8 +16,8 @@
     /* border: 1px solid red; */
 }
 
-html {
-    min-width: 320px;
+body {
+    min-width: 285px;
 }
 h1, h2, h3, h4, h5, h6, a, input[type="submit"] {
     font-family: var(--header-font);
@@ -575,8 +575,7 @@ form input.submitBtn:hover {
 .about-contents  {
     display: flex;
     flex-direction: column;
-    margin-left: 7%;
-    margin-right: 3%;
+    margin: 0 3%;
     gap: 50px;
 
 }
@@ -620,6 +619,15 @@ form input.submitBtn:hover {
 }
 .about-contact {
     margin-bottom: 100px;
+}
+.mapIframe {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+iframe {
+    width: 80vw;
+    height: 40vh;
 }
 
 
