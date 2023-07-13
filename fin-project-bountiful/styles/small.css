@@ -272,14 +272,6 @@ p {
     margin: 10px auto;
 }
 
-.contact-container {
-    background: #fff;
-    margin: 20px auto;
-}
-.contact-container picture {
-    display: none;
-}
-
 .contactus-overlay {
     display: flex;
     flex-direction: column;
@@ -297,7 +289,7 @@ p {
     box-shadow: 3px 3px 7px var(--footer-color);
     width: 90%;
     height: 100%;
-    margin: 0 auto;
+    margin: 25px auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -365,7 +357,6 @@ p {
 }
 .carlsbad {
     margin-top: 30px;
-    background-color: #fff;
     padding: 2%;
     width: 92%;
     max-width: 1089px;
@@ -402,6 +393,20 @@ p {
     width: 93%;
     padding: 0.5em 0;
     line-height: 1.5;
+}
+.mainpage::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: url(/wdd230/fin-project-bountiful/images/lemons-900px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .freshmain::before {
     content: '';
@@ -628,6 +633,21 @@ form input.submitBtn:hover {
 iframe {
     width: 80vw;
     height: 40vh;
+}
+.credits {
+    margin-top: 2rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+
+}
+.credLink {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #131313;
+}
+.credLink:hover {
+    transition: all 0.3s ease;
+    color: var(--pri-color);
 }
 
 
