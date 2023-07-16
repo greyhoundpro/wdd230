@@ -206,9 +206,16 @@ const displayFruit = (fruits) => {
         freshcontents.appendChild(output);
         orderForm.reset();
         outputSubmitted = true;
+        autoScroll();
     });
     
 };
+
+function autoScroll() {
+
+    window.scrollBy(0, 600);
+    
+    }
 
 
 
