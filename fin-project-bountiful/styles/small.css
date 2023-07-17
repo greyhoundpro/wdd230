@@ -248,6 +248,7 @@ p {
 .button:hover {
     transition: all 0.3s ease;
     transform: scale(1.1);
+    background-color: green;
 }
 .hero-btn {
     margin-top: 30px;
@@ -532,6 +533,7 @@ form input.submitBtn {
 form input.submitBtn:hover {
     transition: all 0.3s ease;
     transform: scale(1.1);
+    background-color: green;
 }
 
 .orderOutput {
