@@ -213,7 +213,7 @@ const displayFruit = (fruits) => {
 
 function autoScroll() {
 
-    window.scrollBy(0, 600);
+    window.scrollBy(0, 550);
     
     }
 

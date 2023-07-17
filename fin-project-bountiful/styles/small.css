@@ -148,7 +148,7 @@ p {
 }
 
 .navbar_links {
-    color: #131313;
+    color: var(--pri-color);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -176,7 +176,7 @@ p {
 }
 
 .navbar_links:hover {
-    color: var(--pri-color);
+    color: green;
     transition: all 0.3s ease;
 }
 .social_links img:hover {
@@ -645,11 +645,11 @@ iframe {
 .credLink {
     text-decoration: none;
     transition: all 0.3s ease;
-    color: #131313;
+    color: var(--pri-color);
 }
 .credLink:hover {
     transition: all 0.3s ease;
-    color: var(--pri-color);
+    color: green;
 }
 
 
@@ -718,7 +718,7 @@ footer {
     padding-top: 10px;
 }
 .footer_links2 a:hover {
-    color:var(--pri-color);
+    color: rgb(62, 192, 62);
     transition: all 0.3s ease;
 }
 .copyright {
