@@ -39,8 +39,11 @@
 
     .contactus-container, .weather-container {
         width: 95%;
-        margin: 0 auto;
     
+    }
+    .contactus-overlay {
+        width: 50%;
+        margin: 3% auto;
     }
     
     .contact-container {
@@ -103,6 +106,9 @@
     }
     .freshmain picture {
         display: flex;
+    }
+    .about-contents {
+        margin: 0 10%;
     }
 
 

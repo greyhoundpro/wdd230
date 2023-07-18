@@ -277,10 +277,10 @@ p {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 100%;
-    margin: 3% 10% 3%;
+    width: 50%;
+    margin: 3% auto;
     justify-content: center;
-    align-items:start;
+    align-items:center;
     text-align: center;
 }
 .contactus-container, .weather-container {
@@ -294,8 +294,8 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
+
 .address, .phone, .email {
     display: flex;
     gap: 10px;
